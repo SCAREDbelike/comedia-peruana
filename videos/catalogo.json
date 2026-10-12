@@ -1,0 +1,163 @@
+{
+  "version": "0.4.0",
+  "fecha_catalogacion": "2026-10-11",
+  "avisos": [
+    "Enlaces de terceros, no alojados en este repositorio.",
+    "No se ha realizado visionado directo verificable; los campos de análisis son objetivos, no observaciones.",
+    "No copiar transcripciones ni rutinas sin autorización."
+  ],
+  "videos": [
+    {
+      "id": "eh-2004-programa",
+      "obra": "El Especial del Humor",
+      "titulo": "El Especial del Humor - Programa completo (mayo de 2004)",
+      "url": "https://www.youtube.com/watch?v=jAoLFqbajvA",
+      "publicador": "Neptuno Producciones",
+      "fuente": "https://www.youtube.com/watch?v=jAoLFqbajvA",
+      "origen": "ficha_youtube_indexada",
+      "fecha_publicacion": "2023-02-18",
+      "tema": [
+        "sketches",
+        "parodia",
+        "formato_televisivo"
+      ],
+      "objetivo_estudio": "Catalogar tipos de sketch, cambios de personaje y estructura de programa; requiere revisión directa.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-molina-01",
+      "obra": "El Especial del Humor",
+      "titulo": "El Especial Del Humor - #01 Las Viejas Pitucas de la Molina",
+      "url": "https://www.youtube.com/watch?v=CSHVcaZ6Os0",
+      "publicador": "RieteConmigoTV",
+      "fuente": "https://www.youtube.com/watch?v=CSHVcaZ6Os0",
+      "origen": "ficha_youtube_indexada",
+      "fecha_publicacion": "2020-08-07",
+      "tema": [
+        "sketch",
+        "conflicto",
+        "estatus"
+      ],
+      "objetivo_estudio": "Comprobar cómo se presenta el conflicto y se establece la relación entre personajes.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-molina-03",
+      "obra": "El Especial del Humor",
+      "titulo": "El Especial Del Humor - #03 Las Viejas Pitucas de la Molina",
+      "url": "https://www.youtube.com/watch?v=3khcVkxc5v0",
+      "publicador": "RieteConmigoTV",
+      "fuente": "https://www.youtube.com/watch?v=3khcVkxc5v0",
+      "origen": "ficha_youtube_indexada_y_enlace_prensa",
+      "fecha_publicacion": "2020-09-28",
+      "tema": [
+        "sketch",
+        "contraste_de_personajes",
+        "escalada"
+      ],
+      "objetivo_estudio": "Analizar con revisión directa el conflicto dramático y variaciones del remate.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-toledo-ilian",
+      "obra": "El Especial del Humor",
+      "titulo": "Sketch Toledo e Ilian (título indicado en la nota periodística)",
+      "url": "https://www.youtube.com/watch?v=OIbRB8Rd2UM",
+      "publicador": "no_verificado",
+      "fuente": "https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor",
+      "origen": "video_incrustado_en_prensa",
+      "fecha_publicacion": null,
+      "tema": [
+        "imitacion",
+        "parodia",
+        "personajes"
+      ],
+      "objetivo_estudio": "Examinar interacción y rasgos de personaje, cuando el contenido sea accesible.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-galan-jorgito",
+      "obra": "El Especial del Humor",
+      "titulo": "Sketch Galán y Jorgito (título indicado en la nota periodística)",
+      "url": "https://www.youtube.com/watch?v=ORyOgSVvw0w",
+      "publicador": "no_verificado",
+      "fuente": "https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor",
+      "origen": "video_incrustado_en_prensa",
+      "fecha_publicacion": null,
+      "tema": [
+        "imitacion",
+        "satira",
+        "dialogo"
+      ],
+      "objetivo_estudio": "Verificar el uso de réplicas, humor contextual y contraste de personajes.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-claudio-autori",
+      "obra": "El Especial del Humor",
+      "titulo": "Sketch Claudio y Autori (título indicado en la nota periodística)",
+      "url": "https://www.youtube.com/watch?v=Z2IdB3u1J-8",
+      "publicador": "no_verificado",
+      "fuente": "https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor",
+      "origen": "video_incrustado_en_prensa",
+      "fecha_publicacion": null,
+      "tema": [
+        "parodia_deportiva",
+        "contraste_de_personajes"
+      ],
+      "objetivo_estudio": "Comprobar cómo se crea una dinámica escénica en una parodia deportiva.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-fuji-kenji",
+      "obra": "El Especial del Humor",
+      "titulo": "Sketch Fuji y Kenji (título indicado en la nota periodística)",
+      "url": "https://www.youtube.com/watch?v=hYnkidAVc6M",
+      "publicador": "no_verificado",
+      "fuente": "https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor",
+      "origen": "video_incrustado_en_prensa",
+      "fecha_publicacion": null,
+      "tema": [
+        "parodia",
+        "entrada_de_personaje",
+        "ritmo_visual"
+      ],
+      "objetivo_estudio": "Revisar entrada, repetición y contraste de ritmo en escena.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "ca-reyes-risa-2016",
+      "obra": "Cómicos ambulantes / Los Reyes de la Risa",
+      "titulo": "Los Reyes de la Risa Vol. 2 — Show completo",
+      "url": "https://www.youtube.com/watch?v=W5xOpDj5fAg",
+      "publicador": "Super Comicos Ambulantes",
+      "fuente": "https://www.youtube.com/watch?v=W5xOpDj5fAg",
+      "origen": "ficha_youtube_indexada",
+      "fecha_publicacion": "2016-04-14",
+      "tema": [
+        "humor_escenico",
+        "comicos_ambulantes",
+        "audiencia",
+        "ritmo_oral"
+      ],
+      "objetivo_estudio": "Identificar apertura, transición, interacción con audiencia y duración de remates tras visionado.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    }
+  ]
+}
