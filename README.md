@@ -15,6 +15,7 @@ El feedback posterior señaló que los intentos de chistes cortos eran débiles,
 Nuevo material de trabajo:
 - [Escenarios, personajes y remates](escritura/escenarios-personajes-remates.md): matriz de 12 espacios, defectos de personaje, objetivos y pruebas de claridad.
 - [Taller de sketches originales](escritura/taller-escenas-originales.md): hostal, pollada, junta vecinal y réplica contextual. **Material original no evaluado**.
+- [Tarjetas de escenas para agentes](datasets/escenas-v06.jsonl): tres planes estructurados con lugar, protagonistas, secreto, tres golpes y payoff.
 - [Tests de escena-conflicto-remate](tests/escena-conflicto-remate.md): rechazo de groserías arbitrarias, giros no preparados y diálogos genéricos.
 
 La v0.5 queda como un paso intermedio: aprendimos que **picardía sin construcción dramática tampoco resuelve el problema**.
