@@ -1,61 +1,98 @@
 ---
 name: comedia-peruana
-description: Skill de humor peruano, improvisación oral, sátira cotidiana y remates para directos, bios, sketches y conversaciones. Usar cuando pidan chacota, humor, improvisación o textos graciosos.
-version: 0.3.0
+description: Skill general de humor peruano para stand-up, sketches, cómicos ambulantes, improvisación, sátira, creación de personajes, diálogos, anécdotas, juegos de palabras y remates. Actívala para escribir, analizar, mejorar o practicar comedia en cualquier contexto.
+version: 0.4.0
 ---
 
 # Comedia Peruana
 
-## Objetivo
-Crear humor original, conversacional y ágil en español peruano, sin convertir la jerga en disfraz. «Extrema» significa mayor sorpresa y riesgo creativo, no odio ni crueldad.
+## Misión
+Generar y explicar **comedia original** en español, con capacidad de utilizar referencias culturales peruanas de forma natural. Trabajar en diversos escenarios: stand-up, calle, teatro, sketches, conversación, redes sociales, radio, escritura, actuaciones e improvisación. **No convertir esta skill en un generador especializado en videojuegos o Kick.**
 
-## Principios operativos
-1. **Especificidad**: reemplaza «soy malo jugando» por un detalle reconocible y particular.
-2. **Contradicción**: plantea algo con mucha seguridad y revela una realidad insignificante.
-3. **Estatus**: alguien se comporta como autoridad y la situación lo desmiente.
-4. **Escalada**: tres complicaciones crecientes; la tercera cambia el marco.
-5. **Literalismo**: interpretar literalmente una frase cotidiana hasta lo absurdo.
-6. **Cambio de marco**: pasar de un videojuego a una diligencia municipal, entrevista laboral o discusión familiar, sin explicar el salto.
-7. **Callback**: volver a un elemento previo con una consecuencia nueva.
-8. **Silencio**: en voz, dejar espacio después del remate.
-9. **Anticipación**: la última palabra debe cambiar la interpretación del mensaje.
-10. **Reescritura**: desechar el chiste si solo funciona con emoji, mayúsculas o «XD».
+Referencias de estudio: humor popular peruano, comedia ambulante y parodia televisiva —incluido *El Especial del Humor*— como contextos históricos para investigar **mecanismos**, no para reproducir artistas.
 
-## Adaptación peruana
-Usar contrastes de familia, barrio, municipalidad, mercado, combi, cabina de internet, colegio y trámites únicamente cuando tengan sentido. «Causa», «pe», «ñaño», «mano» no son obligatorios. Evitar regionalismos mezclados artificialmente. Reconocer diferencias entre humor limeño y otras regiones; no fingir que son idénticos.
+## El motor cómico
+- **Premisa**: una tensión, contradicción, detalle concreto o comportamiento absurdo.
+- **Expectativa**: qué creerá la audiencia que viene.
+- **Giro**: cambia de significado, jerarquía, contexto o intensidad.
+- **Remate**: llega lo más tarde posible; la palabra más reveladora queda al final.
+- **Pausa**: en escena, no pisar las risas ni explicar el chiste.
+- **Actitud**: voz o personaje con una opinión clara, distinta del narrador neutro.
 
-## Inspiración histórica y referencias
-Consultar fichas de `referencias/`; distinguir fuentes verificadas, hipótesis de análisis y visionado real. Aprender estructuras de sketch, parodia, diálogo y cambios de estatus, **sin reproducir personajes, parlamentos ni muletillas distintivas**. Ver `referencias/especial-del-humor.md`.
+## Técnicas reutilizables
+1. **Incongruencia controlada**: cruzar un entorno familiar con una lógica incompatible pero comprensible.
+2. **Falsa autoridad**: persona insignificante que se comporta como funcionario supremo.
+3. **Reversión de estatus**: quien aparenta tener el poder termina pidiendo permiso.
+4. **Regla de tres**: dos casos orientan la expectativa; el tercero la rompe.
+5. **Escalada**: cada nueva réplica agrava la misma premisa sin volverse aleatoria.
+6. **Literalismo**: aplicar literalmente una frase que normalmente se usa en sentido figurado.
+7. **Analogía imposible pero precisa**: comparación sorprendente anclada en un detalle real.
+8. **Callback**: recuperar una idea previa, modificada por lo que acaba de pasar.
+9. **Malentendido funcional**: los personajes tienen objetivos claros y entienden cosas distintas.
+10. **Contraste de registro**: ceremonial/administrativo frente a cotidiano/callejero.
+11. **Act-out**: representar brevemente una voz, gesto, intención o situación con ritmo.
+12. **Autoironía**: dejar que el personaje se desacredite con sus propias decisiones.
+13. **Economía**: cada frase sostiene situación, carácter o sorpresa; suprimir explicaciones sobrantes.
+14. **Cambio súbito de marco**: el público interpreta una escena en un contexto y el remate revela otro.
+15. **Tensión y liberación**: dosificar la incertidumbre; evitar confusión y crueldad gratuita.
 
-## Intensidad
-- 1: amable.
-- 2: criollada y contradicción.
-- 3: sarcasmo, picardía, ironía y remate sorpresivo.
-- 4: absurdo escalado, aún natural y comprensible.
-Evitar hostigamiento, estereotipos degradantes y ataques a condiciones protegidas.
+Ver [referencias/mecanismos-comicos.md](referencias/mecanismos-comicos.md).
 
-## Procedimiento para cada respuesta
-1. Identificar audiencia, medio y extensión.
-2. Escribir tres premisas *distintas*.
-3. Elegir la menos predecible.
-4. Recortar 30% si hay relleno.
-5. Verificar el **último golpe**: ¿es una idea nueva?
-6. Leerlo mentalmente en voz alta: ¿lo diría alguien sin vergüenza ajena?
-7. Comparar con `tests/casos.md` y `datasets/ejemplos-originales.jsonl` como referencia de estructura, nunca como copia literal.
+## Estilos / formatos
 
-## Bio para Kick
-Por defecto menos de 300 caracteres; un gancho, una premisa y un solo remate. No usar publicidad («sígueme», «diversión garantizada»). No repetir «mi mamá dice que busque trabajo», «soy malo jugando», «me cortan el internet», «el streamer de mi casa» salvo pedido expreso.
+### Stand-up
+Proponer una opinión particular sobre algo cotidiano, luego 3–5 observaciones cada vez más específicas. Alternar setup → punchline → tag → callback; imaginar ritmo oral y permitir espacios para risas. Evitar escribir párrafos que suenan a conferencia.
 
-## Conversación en directo
-El humor reacciona a un evento real de la partida. Responder con una frase corta. No crear monólogos ante cada estímulo. Alternar bromas con reacción sincera.
+### Cómicos ambulantes / humor callejero
+Entender la audiencia como parte del ritmo: convocatoria, juego verbal, réplica, estatus improvisado, pausa y remate. Crear escenas con diálogo y espontaneidad **sin humillar espectadores reales**. Usar identidad peruana con sentido, no por acumular jerga.
 
-## Antipatrones
-- «Bienvenidos al caos».
-- «Aquí las risas están garantizadas».
-- «Jugamos de todo, ganamos de casualidad».
-- Inventar nacionalismos o modismos exagerados.
-- Atribuir chistes originales a artistas reales.
-- Afirmar que una referencia fue visionada cuando solo se revisó una reseña.
+### Sketches
+Elegir objetivo y falla de cada personaje, definir una única regla cómica y subir sus consecuencias en 3 golpes. Terminar antes de repetir el mismo chiste. Evitar copiar personajes existentes.
 
-## Aprendizaje continuo
-Incorporar `referencias/` como fichas de **análisis original**, `datasets/` como ejemplos propios y `tests/` como casos reproducibles. El archivo no actualiza los pesos de ningún modelo.
+### Improvisación y conversación
+Responder a **lo que acaba de ocurrir**. Buscar una conexión concreta que sorprenda, crear como máximo una o dos frases y detenerse. Si no hay remate, reaccionar genuinamente. No hacer chistes cada cinco segundos.
+
+### Parodia y sátira
+Parodiar las contradicciones del **formato, la situación, las decisiones o el poder**, no asumir que insultar personas equivale a escribir comedia. Los referentes históricos sirven para estudiar estructura; no son voces que se deban clonar.
+
+### Humor escrito / contenido breve
+Un solo punto de vista por pieza, mínimo relleno, remate que funcione sin mayúsculas ni emojis.
+
+## Intensidades
+- **1 / familiar**: sorpresa sin ataque.
+- **2 / pícaro**: doble lectura ligera y observación de barrio.
+- **3 / ácido**: sarcasmo, picardía, ironía y autocrítica; mantener ingenio.
+- **4 / extremo creativo**: escalada absurda y contrastes arriesgados; no convertirlo en acoso ni discriminación.
+
+Elige intensidad y contexto explícitos del usuario. Si no los da, 2–3 por defecto.
+
+## Cultura y voces
+«Causa», «pe», «mano» y otras palabras solo si cuadran con quien habla. Hay variedades distintas de español peruano; no presentar Lima como sinónimo de todo el Perú. Partir de vida cotidiana, trabajos, familia, relaciones, barrio, burocracia o expectativas sociales **cuando sirvan a la premisa**. No convertir la procedencia, acento, clase o rasgos de una persona en blanco automático de burla.
+
+## Flujo obligatorio de composición
+1. Determinar formato, público, grado de picardía y duración.
+2. Anotar **tres premisas realmente diferentes**.
+3. Para cada premisa, calcular cuál será la expectativa.
+4. Escribir al menos **dos giros alternativos**, uno por incongruencia y otro por estatus/contradicción.
+5. Elegir el giro más claro e inesperado; probar ritmo oral.
+6. Recortar explicación, muletillas sobrantes y cliché.
+7. Verificar que el material no replica chistes ni personajes identificables.
+8. Entregar solo lo pedido (si es humor conversacional, no mostrar todas las etapas).
+
+## Lista negra de soluciones fáciles
+No abusar de «soy malo jugando», «mi mamá me manda a trabajar», «el internet falló», «bienvenidos al caos», «risas garantizadas», «SUNAT me investiga», «me dejó mi ex» ni «esto parece un trámite» sin un giro verdaderamente nuevo. Evitar insultos por defecto, remates reciclados, exageraciones vacías y cerrar con explicaciones.
+
+## Control de calidad
+Puntuar 0–5: **claridad, sorpresa, especificidad, naturalidad oral, remate y originalidad**. Reescribir si dos parámetros caen por debajo de 3. La puntuación del modelo es una hipótesis; validar con audiencia humana. Usar [tests/casos.md](tests/casos.md).
+
+## Estudio de videos
+Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json) y fichas en [referencias/](referencias/). Separa siempre:
+- **Enlace documental verificado**: la fuente publica el enlace, título y contexto.
+- **Video observado**: realmente se examinó el material con momento identificable.
+- **Hipótesis**: técnica que se propone investigar, no prueba de que aparezca en un video.
+- **Transcripción autorizada**: texto con permiso legal para reutilizarlo.
+
+No afirmar que se visionó un sketch, que se obtuvo toda la transcripción, ni que hubo entrenamiento del modelo sin evidencia. No publicar material audiovisual ajeno en el repositorio.
+
+## Evolución
+Añadir observaciones propias y ejemplos etiquetados; preparar ejercicios y medir reacciones. El repositorio actualiza reglas y datos de referencia, **no los pesos del modelo**.
