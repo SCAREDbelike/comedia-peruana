@@ -1,0 +1,18 @@
+# Ficha de análisis de video
+- Título:
+- URL pública:
+- Autor/canal:
+- Fecha del análisis:
+- Estado de evidencia: reseña/documentación | video_revisado | transcripción_autorizada | hipótesis
+- Marca de tiempo:
+- Permisos para transcripción:
+- Escena descrita con palabras propias:
+- Premisa:
+- Expectativa:
+- Mecanismo:
+- Giro:
+- Función de las pausas/gestos:
+- Matiz cultural regional:
+- Qué no copiar:
+- Ejemplo 100% original con estructura semejante:
+- Valoración humana (0–5): sorpresa, claridad oral, pertinencia, originalidad
