@@ -1,10 +1,36 @@
-# Comedia Peruana — Laboratorio abierto de humor (v0.4.0)
+# Comedia Peruana — Laboratorio abierto de humor (v0.6.0-dev, en revisión)
 
 **Skill de escritura, análisis e improvisación humorística con identidad peruana.** Investiga las técnicas de los **cómicos ambulantes**, el humor de barrio, los sketches televisivos (como *El Especial del Humor*), el **stand-up**, la sátira cotidiana, los diálogos cómicos y la creación de personajes.
 
 **Propósito:** comprender por qué funciona un remate y aplicar ese conocimiento para producir **comedia original** en cualquier formato, sin copiar rutinas ni personajes ajenos.
 
 > No es una colección de chistes robados ni un modelo reentrenado. Es una skill con biblioteca de referencias, ejercicios, ejemplos nuevos y pruebas de calidad.
+
+## Cambio de método: de chistes sueltos a comedia de situaciones (v0.6-dev)
+
+El feedback posterior señaló que los intentos de chistes cortos eran débiles, que las lisuras estaban «por estar» y que faltaban **lugares bien elegidos, personajes que destaquen, conflicto, picardía, tonterías crecientes y remates trabajados**.
+
+**No basta con escribir «¡huevón!» al final de cualquier diálogo.** Antes de lanzar una línea, inventar una escena con regla local, dos personas que quieren cosas diferentes, una mentira o secreto que se descubre y un pago final sembrado desde el inicio.
+
+Nuevo material de trabajo:
+- [Escenarios, personajes y remates](escritura/escenarios-personajes-remates.md): matriz de 12 espacios, defectos de personaje, objetivos y pruebas de claridad.
+- [Taller de sketches originales](escritura/taller-escenas-originales.md): hostal, pollada, junta vecinal y réplica contextual. **Material original no evaluado**.
+- [Tarjetas de escenas para agentes](datasets/escenas-v06.jsonl): tres planes estructurados con lugar, protagonistas, secreto, tres golpes y payoff.
+- [Tests de escena-conflicto-remate](tests/escena-conflicto-remate.md): rechazo de groserías arbitrarias, giros no preparados y diálogos genéricos.
+
+La v0.5 queda como un paso intermedio: aprendimos que **picardía sin construcción dramática tampoco resuelve el problema**.
+
+## Enfoque anterior: humor con picardía (v0.5.0, en revisión)
+
+Tras una prueba en conversación, el usuario rechazó los tres intentos de la v0.4 por baja claridad y tono demasiado sano. Ahora se priorizan **escenas comprensibles, diálogos que se pican, lisuras naturales en contexto, doble sentido ligero y un remate que dependa de la premisa**.
+
+La lisura no es el chiste. Se permite el vocabulario criollo —«huevón», «cojudo», «carajo», «qué chucha»— si sube la tensión cómica. Ni groserías de relleno ni insultos contra identidades protegidas.
+
+- [Diagnóstico honesto de v0.4](referencias/diagnostico-v04.md)
+- [Nuevos ejemplos originales con filo](datasets/humor-picaro-v05.jsonl)
+- [Pruebas de claridad y picardía](tests/humor-con-filo.md)
+
+**Estos ejemplos todavía no han pasado pruebas con audiencia.** La mejora es una hipótesis basada en feedback, no una afirmación de éxito.
 
 ## Explorar
 
@@ -19,6 +45,10 @@
 | [plantillas/ficha-video.md](plantillas/ficha-video.md) | Plantilla reproducible para observar escenas |
 | [datasets/ejemplos-originales.jsonl](datasets/ejemplos-originales.jsonl) | Material original etiquetado por formato y técnica |
 | [tests/casos.md](tests/casos.md) | Banco de pruebas de humor de distintos formatos |
+| [escritura/escenarios-personajes-remates.md](escritura/escenarios-personajes-remates.md) | Lugares, defectos, secretos y conflictos como material de arranque |
+| [escritura/taller-escenas-originales.md](escritura/taller-escenas-originales.md) | Sketches prototipo de humor de situación |
+| [tests/escena-conflicto-remate.md](tests/escena-conflicto-remate.md) | Pruebas de lógica cómica, escalada y payoff |
+| [tests/humor-con-filo.md](tests/humor-con-filo.md) | Verificación específica de comprensión y picardía |
 | [scripts/extraer_transcripcion.py](scripts/extraer_transcripcion.py) | Limpieza local de SRT/VTT/TXT autorizados |
 
 ## Referencias iniciales
