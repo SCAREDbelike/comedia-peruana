@@ -1,43 +1,66 @@
-# 🇵🇪 Comedia Peruana — Skill abierta (v0.3.0)
+# 🇵🇪 Comedia Peruana — Laboratorio abierto de humor (v0.4.0)
 
-Repositorio de técnicas para generar humor peruano **original**, improvisación, diálogos de barrio, respuestas para directos, biografías de Kick y sketches. La meta es mejorar el *mecanismo* del chiste, no copiar comediantes.
+**Skill de escritura, análisis e improvisación humorística con identidad peruana.** Investiga las técnicas de los **cómicos ambulantes**, el humor de barrio, los sketches televisivos (como *El Especial del Humor*), el **stand-up**, la sátira cotidiana, los diálogos cómicos y la creación de personajes.
 
-## Qué contiene
+**Propósito:** comprender por qué funciona un remate y aplicar ese conocimiento para producir **comedia original** en cualquier formato, sin copiar rutinas ni personajes ajenos.
 
-- [SKILL.md](SKILL.md) — reglas de personalidad cómica, sorpresa, oralidad y control de clichés.
-- [referencias/especial-del-humor.md](referencias/especial-del-humor.md) — primera ficha documental e hipótesis para estudiar *El Especial del Humor*. **No se ha hecho visionado directo validado de episodios.**
-- [plantillas/ficha-video.md](plantillas/ficha-video.md) — cómo documentar un sketch.
-- [datasets/ejemplos-originales.jsonl](datasets/ejemplos-originales.jsonl) — material original, sin diálogos copiados.
-- [scripts/extraer_transcripcion.py](scripts/extraer_transcripcion.py) — limpieza local de subtítulos con permiso.
-- [tests/casos.md](tests/casos.md) y [tests/test_transcripcion.py](tests/test_transcripcion.py) — evaluaciones.
+> No es una colección de chistes robados ni un modelo reentrenado. Es una skill con biblioteca de referencias, ejercicios, ejemplos nuevos y pruebas de calidad.
 
-## Cómo usar
+## Explorar
 
-Copia `SKILL.md` en un agente que acepte skills o instrucciones y pide: «Comedia Peruana, nivel 3, humor de barrio; dame tres remates distintos para un directo, sin clichés».
+| Recurso | Para qué sirve |
+| --- | --- |
+| [SKILL.md](SKILL.md) | Instrucciones principales, mecanismos cómicos, improvisación y formatos |
+| [videos/README.md](videos/README.md) | **Videoteca con enlaces reales**, procedencia y estados de verificación |
+| [videos/catalogo.json](videos/catalogo.json) | Catálogo legible por programas, con temas para investigar |
+| [referencias/especial-del-humor.md](referencias/especial-del-humor.md) | Hipótesis de análisis de sketches de televisión |
+| [referencias/comicos-ambulantes.md](referencias/comicos-ambulantes.md) | Mecánicas de humor callejero y relación con la audiencia |
+| [referencias/mecanismos-comicos.md](referencias/mecanismos-comicos.md) | Herramientas aplicables a stand-up, escena y conversación |
+| [plantillas/ficha-video.md](plantillas/ficha-video.md) | Plantilla reproducible para observar escenas |
+| [datasets/ejemplos-originales.jsonl](datasets/ejemplos-originales.jsonl) | Material original etiquetado por formato y técnica |
+| [tests/casos.md](tests/casos.md) | Banco de pruebas de humor de distintos formatos |
+| [scripts/extraer_transcripcion.py](scripts/extraer_transcripcion.py) | Limpieza local de SRT/VTT/TXT autorizados |
 
-## Cómo estudiar nuevos videos
+## Referencias iniciales
 
-1. Elegir un video concreto y guardar enlace, creador y fragmento.
-2. Revisar el material directamente y documentar contexto, giro, ritmo, voces y pausas en palabras propias.
-3. Generalizar la técnica sin reproducir guiones ni muletillas protegidas.
-4. Crear un ejemplo original y pasarlo por pruebas.
-5. Documentar el cambio en `CHANGELOG.md`.
+La videoteca ya incorpora referencias enlazadas a:
+- *El Especial del Humor*: un programa completo de 2004 y sketches relacionados con «Las viejas pitucas de La Molina».
+- Otros sketches referenciados por una nota periodística (estos enlaces **no se han comprobado mediante visionado**).
+- *Los Reyes de la Risa Vol. 2*: presentación larga con varios cómicos ambulantes.
 
-**Nota legal:** los videos y transcripciones de terceros no están incluidos en la licencia MIT. No subir transcripciones completas sin autorización.
+[Ir al catálogo de videos →](videos/README.md)
 
-## Procesar subtítulos localmente
+## Uso rápido
+
+Si tu agente admite skills, incluye [SKILL.md](SKILL.md) en sus instrucciones, y prueba:
+
+```text
+Usa Comedia Peruana (nivel 3). Escribe una apertura de stand-up de 60 segundos
+sobre tener que hacer trámites en Perú. Alterna premisa, observación,
+escalada y un remate final sorprendente. Nada de clichés ni imitaciones.
+```
+
+Otros usos: improvisación en público, sketches, bromas conversacionales, sátira de situaciones, diálogos, humor absurdo, guiones, juegos de palabras y creación de personajes. **Gaming es una aplicación entre muchas**, no el foco principal.
+
+## Método de estudio
+
+1. Registrar enlace, canal y procedencia del video.
+2. Si el video se observó, anotar fragmentos y tiempos; si no, etiquetarlo como **pendiente de visionado**.
+3. Describir en palabras propias premisa, expectativas, interrupciones, pausas y remate.
+4. Convertir la observación en una **regla técnica general**, sin repetir diálogos memorables ni imitaciones.
+5. Crear un ejemplo completamente nuevo y someterlo a pruebas humanas de sorpresa, naturalidad y ritmo.
+
+**Derechos:** enlazamos contenidos de terceros sin alojarlos; no subir videos ni transcripciones completas protegidas sin autorización. El material propio del proyecto puede tener licencia MIT, pero esa licencia no cubre obras externas.
+
+## Ejecutar pruebas de subtítulos
 
 ```bash
-python scripts/extraer_transcripcion.py video_autorizado.srt --out transcripciones-locales/video.txt
+python scripts/extraer_transcripcion.py material_autorizado.srt --out transcripciones-locales/material.txt
 python -m unittest discover -s tests -v
 ```
 
-Añadir referencias **no reentrena el modelo**; fortalece el contexto y las instrucciones. Si luego se quisiera un fine-tuning auténtico harían falta un modelo compatible, datos utilizables legalmente y una evaluación adecuada.
+La videoteca enseña a **analizar técnicas**, no modifica los parámetros del modelo. Cada propuesta deberá evaluarse con personas reales; un generador no puede garantizar que su propio chiste dé risa.
 
-## Cómo colaborar
+## Colaboración
 
-Aporta fichas verificables, no copias textuales; puedes proponer situaciones de otras regiones del Perú y calificar ejemplos por sorpresa, naturalidad y ritmo. Lee [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Estado de avance
-
-v0.3.0 es una primera versión publicada. Los análisis audiovisuales concretos de segmentos y las calificaciones humanas quedan pendientes.
+Mira [CONTRIBUTING.md](CONTRIBUTING.md). Las fichas deben distinguir datos documentados, observación directa e hipótesis y evitar caricaturizar regiones o colectivos. Se aceptan estilos muy diferentes del humor peruano.
