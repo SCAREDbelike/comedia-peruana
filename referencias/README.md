@@ -1,10 +1,17 @@
-# Biblioteca de referencias
-Aquí se guardan **fichas propias**, enlaces y aprendizajes estructurales, nunca guiones completos de programas de terceros.
+# Referencias y análisis
 
-## Estados de evidencia
-- `reseña/documentación`: inferido de descripciones o prensa, no se afirma visionado.
-- `video_revisado`: se observó directamente el material, con URL y momento.
-- `transcripción_autorizada`: existe permiso para utilizarla.
-- `hipótesis`: interpretación a contrastar.
+Esta carpeta guarda **fichas originales de estudio**, enlaces y técnicas generales. No almacena guiones completos ajenos.
 
-Usa `plantillas/ficha-video.md`. Cada regla derivada de videos debe explicitar su evidencia y generar un ejemplo NUEVO.
+## Entradas
+- [El Especial del Humor](especial-del-humor.md): fuentes, lista de cuestiones a observar y micro-sketch original.
+- [Cómicos ambulantes](comicos-ambulantes.md): hipótesis de estudio de ritmo, público e improvisación.
+- [Mecanismos cómicos](mecanismos-comicos.md): herramientas generales con ejercicios y prototipos nuevos.
+- [Videoteca](../videos/README.md): enlaces concretos y procedencia.
+
+## Grados de evidencia
+- **enlace indexado / reseña**: referencia encontrada, contenido no visionado.
+- **video revisado**: se analizó directamente con marcas de tiempo y notas propias.
+- **transcripción autorizada**: se cuenta con permiso del titular.
+- **hipótesis**: posible mecanismo que hay que verificar.
+
+La procedencia debe acompañar siempre cualquier aprendizaje declarado. No atribuir frases, personajes originales o rutinas a artistas concretos sin prueba.
