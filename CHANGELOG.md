@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.5.0 — propuesta basada en feedback (2026-10-11)
+- Revisión de tres chistes fallidos: ninguno hizo reír al evaluador; faltaron claridad, lisuras y picardía.
+- Nuevas reglas de réplica callejera, conflicto directo, grosería con función y doble sentido claro.
+- Nueve ejemplos originales aún **no probados**, en nuevo JSONL.
+- Diagnóstico de v0.4, guía de pruebas A/B y referencias culturales.
+- Cambios preparados en pull request para revisión antes de unir a main.
+
 ## 0.4.0 — 2026-10-11
 - Proyecto **generalizado**: stand-up, cómicos ambulantes, sketches, improvisación, sátira, personajes y humor conversacional.
 - README y SKILL reescritos; gaming/Kick dejan de ser el foco.
