@@ -1,24 +1,38 @@
-# El Especial del Humor — primera ficha de estudio
+# El Especial del Humor — estudio documental inicial
 
-- **Obra de referencia:** programa cómico peruano *El Especial del Humor*.
-- **Estado:** documentación secundaria / referencias web. **No se ha realizado un visionado escena por escena ni se han extraído transcripciones verificadas en esta ficha.**
-- **Enlaces de búsqueda para revisión humana:** https://www.youtube.com/results?search_query=El+Especial+del+Humor+sketch+Jorge+Benavides+Carlos+Alvarez
-- **Contexto:** programa asociado a sketches y parodias interpretadas por comediantes peruanos como Jorge Benavides y Carlos Álvarez en parte de su trayectoria.
+## Fuentes de contexto
+- [Latina: reseña histórica del programa](https://latinanoticias.pe/espectaculos/latina-40-anos-contigo-el-especial-del-humor-con-jorge-benavides-y-carlos-alvarez_20230203/amp/).
+- [La República: cinco sketches y videos incrustados](https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor).
+- [RPP: recopilación descriptiva de sketches](https://rpp.pe/capital/amp/entretenimiento/los-mejores-sketch-de-jorge-benavides-y-carlos-alvarez-en-el-especial-del-humor-noticias-1430318).
+- [Programa completo de mayo de 2004, archivo en YouTube](https://www.youtube.com/watch?v=jAoLFqbajvA).
+- [«Las viejas pitucas de La Molina», episodio #01](https://www.youtube.com/watch?v=CSHVcaZ6Os0).
 
-## Hipótesis de mecanismos a validar viendo escenas concretas
-1. **Choque de jerarquías**: un personaje aparenta autoridad; otro desmonta su posición con una observación trivial.
-2. **Parodia de formatos reconocibles**: un hecho pequeño se representa como entrevista o anuncio solemne.
-3. **Contraste de registros**: solemnidad institucional frente a respuesta criolla y cotidiana.
-4. **Escalada en diálogo**: una equivocación inicial crea consecuencias cada vez mayores.
-5. **Réplica fulminante**: la segunda voz cambia el sentido de la primera.
+Latina y otros medios describen el programa como un espacio de imitaciones y parodias con personajes del espectáculo, política y deporte. **Este documento no valida acontecimientos políticos ni expresa posiciones sobre personas reales.**
 
-**Importante:** estas son hipótesis de análisis y técnicas cómicas generales, no conclusiones verificadas de episodios específicos.
+**Estado de análisis:** contexto y enlaces documentados; sin visionado directo de segmentos con marcas de tiempo. El catálogo de [videos](../videos/README.md) separa enlaces de prensa de fichas indexadas de YouTube.
 
-## Ejemplo ORIGINAL para una transmisión
-Premisa: el streamer explica por qué perdió una partida.
-— «Voy a pedir una auditoría de esta derrota».
-— «¿A quién?»
-— «A mi sobrino. Él fue quien me recomendó el juego».
+## Hipótesis de trabajo para observar al reproducirlo
+1. **Personaje reconocible:** el público reconoce rápido el contexto y puede concentrarse en la contradicción.
+2. **Juego de poder:** un personaje presume autoridad y otro revela su fragilidad.
+3. **Parodia del formato:** un encuentro doméstico se representa como si fuera un acto institucional.
+4. **Réplica inesperada:** la contestación modifica la premisa del personaje anterior.
+5. **Entrada/gesto:** aparición o conducta genera una expectativa que una réplica completa o desmiente.
+6. **Repetición con variación:** una situación vuelve, pero con una circunstancia nueva.
 
-## Próximo paso de investigación
-Seleccionar 3 videos concretos con URL, segmento temporal y autor; registrar la premisa, secuencia de turnos, pausas y giro **en palabras propias**. Nunca alojar íntegramente subtítulos ajenos sin autorización.
+Son **hipótesis de técnicas cómicas generales**, no resultados de medición de este programa.
+
+## Micro-sketch original de prueba
+**Situación:** un hombre anuncia que tiene una gran influencia en una municipalidad.
+- «¿Y qué puesto ocupas?»
+- «Hago que todos se pongan de pie».
+- «¿Eres gerente?»
+- «No, arreglé la única silla de la oficina».
+
+Técnica a evaluar: cambio de marco + estatus. Revisar ritmo oral antes de usarlo ante audiencia.
+
+## Plan de revisión de videos
+1. Programa 2004: separar 3 bloques distintos y clasificar la mecánica del giro.
+2. Pitucas #01 y #03: comparar el planteamiento, la repetición y la modificación del conflicto.
+3. Documentar el efecto de gestos y cortes sin transcribir diálogos.
+4. Registrar marcas de tiempo comprobadas solo después de visionar.
+5. Traducir cada mecanismo a un sketch **nuevo**, sin calcar personajes ni chistes.
