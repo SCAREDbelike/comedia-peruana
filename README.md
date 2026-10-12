@@ -1,4 +1,4 @@
-# Comedia Peruana — Laboratorio abierto de humor (v0.5.0 (propuesta))
+# Comedia Peruana — Laboratorio abierto de humor (v0.5.0 — propuesta)
 
 **Skill de escritura, análisis e improvisación humorística con identidad peruana.** Investiga las técnicas de los **cómicos ambulantes**, el humor de barrio, los sketches televisivos (como *El Especial del Humor*), el **stand-up**, la sátira cotidiana, los diálogos cómicos y la creación de personajes.
 
