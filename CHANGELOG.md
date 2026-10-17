@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 0.5.0 — 2026-10-17
+- Videoteca ampliada de **8 a 17 videos** (+9 enlaces indexados con metadatos, origen y objetivos de estudio).
+- Más televisión: programa de 2004 y *El Diván con Karla Casos*, partes 1 y 2.
+- Más plaza: El Chino Risas, Los Herederos de la Risa y Los Marcianitos.
+- Guía de visionado sin inventar análisis ni tiempos; separación clara entre índice de publicador y evidencia observada.
+- Taller de remates, estatus, doble sentido, personajes, lisuras expresivas y corrección de chistes débiles.
+- Guía cultural con obra académica de Víctor Vich y enlaces a las fuentes.
+- Programa de entrenamiento de 14 días, grabaciones, pruebas humanas y modo interactivo de la skill.
+
+
 ## 0.4.0 — 2026-10-11
 - Proyecto **generalizado**: stand-up, cómicos ambulantes, sketches, improvisación, sátira, personajes y humor conversacional.
 - README y SKILL reescritos; gaming/Kick dejan de ser el foco.

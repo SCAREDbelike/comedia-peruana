@@ -1,4 +1,4 @@
-# Comedia Peruana — Laboratorio abierto de humor (v0.4.0)
+# Comedia Peruana — Laboratorio abierto de humor (v0.5.0)
 
 **Skill de escritura, análisis e improvisación humorística con identidad peruana.** Investiga las técnicas de los **cómicos ambulantes**, el humor de barrio, los sketches televisivos (como *El Especial del Humor*), el **stand-up**, la sátira cotidiana, los diálogos cómicos y la creación de personajes.
 
@@ -12,7 +12,11 @@
 | --- | --- |
 | [SKILL.md](SKILL.md) | Instrucciones principales, mecanismos cómicos, improvisación y formatos |
 | [videos/README.md](videos/README.md) | **Videoteca con enlaces reales**, procedencia y estados de verificación |
-| [videos/catalogo.json](videos/catalogo.json) | Catálogo legible por programas, con temas para investigar |
+| [videos/catalogo.json](videos/catalogo.json) | Catálogo estructurado con **17 enlaces** y estados de verificación |
+| [videos/guia-de-visionado.md](videos/guia-de-visionado.md) | Ruta de estudio de programas, sketches y shows callejeros |
+| [referencias/taller-remates-personajes.md](referencias/taller-remates-personajes.md) | Remates, picardía, doble sentido, personajes y actuación |
+| [referencias/contexto-cultural-y-fuentes.md](referencias/contexto-cultural-y-fuentes.md) | Fuentes académicas y periodísticas; Víctor Vich |
+| [ejercicios/plan-14-dias.md](ejercicios/plan-14-dias.md) | Entrenamiento con grabaciones y evaluación humana |
 | [referencias/especial-del-humor.md](referencias/especial-del-humor.md) | Hipótesis de análisis de sketches de televisión |
 | [referencias/comicos-ambulantes.md](referencias/comicos-ambulantes.md) | Mecánicas de humor callejero y relación con la audiencia |
 | [referencias/mecanismos-comicos.md](referencias/mecanismos-comicos.md) | Herramientas aplicables a stand-up, escena y conversación |
@@ -23,12 +27,14 @@
 
 ## Referencias iniciales
 
-La videoteca ya incorpora referencias enlazadas a:
-- *El Especial del Humor*: un programa completo de 2004 y sketches relacionados con «Las viejas pitucas de La Molina».
+La videoteca reúne **17 referencias enlazadas**, entre ellas:
+- *El Especial del Humor*: dos programas de 2004, «Las viejas pitucas de La Molina» y «El Diván con Karla Casos» en dos partes.
 - Otros sketches referenciados por una nota periodística (estos enlaces **no se han comprobado mediante visionado**).
-- *Los Reyes de la Risa Vol. 2*: presentación larga con varios cómicos ambulantes.
+- *Los Reyes de la Risa Vol. 2*, El Chino Risas, Los Herederos de la Risa y Los Marcianitos.
 
 [Ir al catálogo de videos →](videos/README.md)
+
+**Ninguna ficha nueva se presenta como video visionado ni contiene transcripciones ajenas.**
 
 ## Uso rápido
 

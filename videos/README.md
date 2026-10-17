@@ -1,8 +1,8 @@
 # Videoteca de comedia peruana
 
-**8 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
+**17 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
 
-> **Estado al 11 de octubre de 2026:** se verificó que existen referencias públicas indexadas o enlaces publicados en prensa. **No se han visionado íntegramente ni analizado marcas de tiempo**; por tanto, los temas son hipótesis de investigación, no conclusiones del material.
+> **Estado al 17 de octubre de 2026:** se verificó que existen referencias públicas indexadas o enlaces publicados en prensa. **No se han visionado íntegramente ni analizado marcas de tiempo**; por tanto, los temas son hipótesis de investigación, no conclusiones del material.
 
 | ID | Video enlazado | Procedencia | Qué estudiar al verlo |
 | --- | --- | --- | --- |
@@ -15,10 +15,23 @@
 | `eh-fuji-kenji` | [Sketch Fuji y Kenji (título indicado en la nota periodística)](https://www.youtube.com/watch?v=hYnkidAVc6M) | video incrustado en prensa | Revisar entrada, repetición y contraste de ritmo en escena. |
 | `ca-reyes-risa-2016` | [Los Reyes de la Risa Vol. 2 — Show completo](https://www.youtube.com/watch?v=W5xOpDj5fAg) | ficha youtube indexada | Identificar apertura, transición, interacción con audiencia y duración de remates tras visionado. |
 
+| `eh-2004-programa-05` | [5to programa completo - 03 de abril de 2004](https://www.youtube.com/watch?v=8GLaSsqgUfk) | ficha de YouTube indexada | Comparar dos segmentos del programa y sus mecanismos; el publicador incluye un índice horario en la descripción. |
+| `eh-divan-karla-01` | [El Diván con Karla Casos (1 de 2)](https://www.youtube.com/watch?v=O7yq7_9PRAg) | ficha de YouTube indexada | Investigar el contraste entre lenguaje solemne y subtexto picante. |
+| `eh-divan-karla-02` | [El Diván con Karla Casos (2 de 2)](https://www.youtube.com/watch?v=ZwHRyBK9SuA) | ficha de YouTube indexada | Comparar con la parte anterior qué expectativa se hereda y qué variación aparece. |
+| `ca-chino-vol1` | [El Chino Risas Vol.1 - Show completo en Chabuca Granda](https://www.youtube.com/watch?v=IGOLXyVS2TU) | ficha de YouTube indexada | Observar cómo se convoca y mantiene la atención de una audiencia en plaza. |
+| `ca-chino-vol3` | [El Chino Risas Vol.3 - Show completo en Chabuca Granda](https://www.youtube.com/watch?v=IN7w57Xufps) | ficha de YouTube indexada | Comparar con Vol.1 apertura, reparto de voces y cambios de ritmo. |
+| `ca-chino-vol2-parte1` | [Chino Risas Vol.2 - Parte 1 de 6](https://www.youtube.com/watch?v=VUz6-MxL-kU) | ficha de YouTube indexada | Investigar qué acción sostiene la atención antes del primer remate. |
+| `ca-herederos-policia` | [Los Herederos de la Risa - El show del Policía](https://www.youtube.com/watch?v=iDuJb3_CoQ4) | ficha de YouTube indexada | Investigar si una figura de autoridad permite cambios de estatus dentro de una escena. |
+| `ca-herederos-frejolito` | [Los Herederos de la Risa y Frejolito Jr. Vol.2](https://www.youtube.com/watch?v=gsklpFzdC8s) | ficha de YouTube indexada | Investigar cómo se reparten una premisa y su sabotaje entre dos intérpretes. |
+| `ca-marcianitos-vol2` | [Los Marcianitos de la Risa Vol.2 - Show completo en Chabuca Granda](https://www.youtube.com/watch?v=zYLHaM6zrho) | ficha de YouTube indexada | Identificar mediante visionado si el ritmo depende de actuación, pausas o respuesta colectiva. |
+
+Guía de trabajo: [cómo ver y documentar los videos](guia-de-visionado.md). **El programa de 2004 añadido incluye índices horarios en la descripción del publicador; no son visionado propio.**
+
 ## Fuentes externas de contraste
 - [Reportaje de La República con enlaces incrustados](https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor).
 - [RPP sobre sketches reconocidos de El Especial del Humor](https://rpp.pe/capital/amp/entretenimiento/los-mejores-sketch-de-jorge-benavides-y-carlos-alvarez-en-el-especial-del-humor-noticias-1430318).
 - [Reportaje de Latina sobre la trayectoria del programa](https://latinanoticias.pe/espectaculos/latina-40-anos-contigo-el-especial-del-humor-con-jorge-benavides-y-carlos-alvarez_20230203/amp/).
+- [Víctor Vich, investigación sobre cómicos ambulantes (Universidad del Pacífico)](https://faculty.up.edu.pe/es/publications/el-discurso-de-la-calle-los-c%C3%B3micos-ambulantes-y-las-tensiones-de/).
 
 ## Estados de validación
 - `ficha_youtube_indexada`: título y descripción visibles en un resultado indexado de YouTube, **no constituye visionado**.

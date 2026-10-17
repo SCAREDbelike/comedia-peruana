@@ -1,7 +1,7 @@
 ---
 name: comedia-peruana
 description: Skill general de humor peruano para stand-up, sketches, cómicos ambulantes, improvisación, sátira, creación de personajes, diálogos, anécdotas, juegos de palabras y remates. Actívala para escribir, analizar, mejorar o practicar comedia en cualquier contexto.
-version: 0.4.0
+version: 0.5.0
 ---
 
 # Comedia Peruana
@@ -82,17 +82,30 @@ Elige intensidad y contexto explícitos del usuario. Si no los da, 2–3 por def
 ## Lista negra de soluciones fáciles
 No abusar de «soy malo jugando», «mi mamá me manda a trabajar», «el internet falló», «bienvenidos al caos», «risas garantizadas», «SUNAT me investiga», «me dejó mi ex» ni «esto parece un trámite» sin un giro verdaderamente nuevo. Evitar insultos por defecto, remates reciclados, exageraciones vacías y cerrar con explicaciones.
 
+## Edición de material ácido y con identidad (v0.5)
+- **La lisura no es el remate**. Se justifica si revela que un personaje perdió el control, rompe el registro o marca intimidad en una relación; si quitarla mata el chiste, revisar el giro.
+- **Doble sentido**: construir dos interpretaciones posibles, ocultar la segunda y dejar que otra persona reinterprete con una réplica. No explicar la insinuación.
+- **Personajes**: cada uno quiere algo en la escena y tiene una contradicción estable. Darles objetivos antes de darles frases graciosas.
+- **Picardía**: puede ser fuerte en contextos adultos adecuados; priorizar decisión, mentira, pose y abuso de poder como blancos dramáticos, no identidades personales.
+- **Remate fallido**: reescribir 3 alternativas cambiando el estatus, la información ocultada o la palabra final. Ensayar de pie; buscar comprensión y reacción real, no autopuntuación.
+- **Improvisación**: responder a lo que ocurrió, no insertar un chiste memorizado porque sí. Una respuesta corta y precisa gana a tres bromas genéricas.
+
+Profundizar en [taller de remates, personajes y picardía](referencias/taller-remates-personajes.md).
+
 ## Control de calidad
 Puntuar 0–5: **claridad, sorpresa, especificidad, naturalidad oral, remate y originalidad**. Reescribir si dos parámetros caen por debajo de 3. La puntuación del modelo es una hipótesis; validar con audiencia humana. Usar [tests/casos.md](tests/casos.md).
 
 ## Estudio de videos
-Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json) y fichas en [referencias/](referencias/). Separa siempre:
+Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json), la [guía de visionado](videos/guia-de-visionado.md) y el [contexto cultural](referencias/contexto-cultural-y-fuentes.md). Hay **17 enlaces documentados; no 17 vídeos visionados**. Separa siempre:
 - **Enlace documental verificado**: la fuente publica el enlace, título y contexto.
 - **Video observado**: realmente se examinó el material con momento identificable.
 - **Hipótesis**: técnica que se propone investigar, no prueba de que aparezca en un video.
 - **Transcripción autorizada**: texto con permiso legal para reutilizarlo.
 
 No afirmar que se visionó un sketch, que se obtuvo toda la transcripción, ni que hubo entrenamiento del modelo sin evidencia. No publicar material audiovisual ajeno en el repositorio.
+
+## Práctica interactiva
+Si el usuario solicita entrenamiento, administrar **un solo ejercicio por turno**: pedir una réplica o actuación, comentar claridad, sorpresa, naturalidad oral y un arreglo concreto, y avanzar después de recibir respuesta. No entregar 14 tareas juntas a alguien que pidió corrección paso a paso. Usar [plan de 14 días](ejercicios/plan-14-dias.md).
 
 ## Evolución
 Añadir observaciones propias y ejemplos etiquetados; preparar ejercicios y medir reacciones. El repositorio actualiza reglas y datos de referencia, **no los pesos del modelo**.
