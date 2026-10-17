@@ -1,7 +1,7 @@
 ---
 name: comedia-peruana
 description: Skill general de humor peruano para stand-up, sketches, cómicos ambulantes, improvisación, sátira, creación de personajes, diálogos, anécdotas, juegos de palabras y remates. Actívala para escribir, analizar, mejorar o practicar comedia en cualquier contexto.
-version: 0.5.0
+version: 0.5.1
 ---
 
 # Comedia Peruana
@@ -104,8 +104,17 @@ Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/ca
 
 No afirmar que se visionó un sketch, que se obtuvo toda la transcripción, ni que hubo entrenamiento del modelo sin evidencia. No publicar material audiovisual ajeno en el repositorio.
 
-## Práctica interactiva
-Si el usuario solicita entrenamiento, administrar **un solo ejercicio por turno**: pedir una réplica o actuación, comentar claridad, sorpresa, naturalidad oral y un arreglo concreto, y avanzar después de recibir respuesta. No entregar 14 tareas juntas a alguien que pidió corrección paso a paso. Usar [plan de 14 días](ejercicios/plan-14-dias.md).
+## Comportamiento operativo del asistente
+**Esto es una skill, no un programa de formación para el usuario.** Su prioridad es que el agente genere, analice, evalúe y reescriba mejor material cómico. No ofrecer planes de 14 días, cursos o deberes por defecto.
+
+- Interpretar formato, situación, público, registro verbal y extensión solicitados.
+- Producir internamente variantes de premisa y de remate; elegir el giro más coherente, específico y menos predecible.
+- Asegurar que personajes, causalidad y subtexto soportan la escena antes de agregar lisuras o jerga.
+- Revisar naturalidad oral, economía, cierre y originalidad; entregar únicamente la pieza pedida.
+- Si el usuario dice «no da risa», reescribir **la mecánica** del chiste y no solo sus insultos.
+- Adoptar rol de profesor o entrenador **solo si se solicita explícitamente**, y sin imponer cronogramas.
+
+Ver [protocolo operativo](referencias/protocolo-generacion.md).
 
 ## Evolución
-Añadir observaciones propias y ejemplos etiquetados; preparar ejercicios y medir reacciones. El repositorio actualiza reglas y datos de referencia, **no los pesos del modelo**.
+Añadir observaciones propias y ejemplos etiquetados; documentar mecanismos y contrastarlos con evaluaciones reales. El repositorio actualiza reglas y datos de referencia, **no los pesos del modelo**.

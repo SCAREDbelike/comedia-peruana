@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.5.1 — 2026-10-17
+- Corregido el alcance: **skill para generar humor con IA, no entrenamiento del usuario**.
+- Eliminado el plan de 14 días.
+- Añadido protocolo del agente: tipos de solicitudes, selección de giros, edición y reparación de chistes.
+- Actualizados SKILL, README y taller de remates para no imponer prácticas ni clases.
+
+
 ## 0.5.0 — 2026-10-17
 - Videoteca ampliada de **8 a 17 videos** (+9 enlaces indexados con metadatos, origen y objetivos de estudio).
 - Más televisión: programa de 2004 y *El Diván con Karla Casos*, partes 1 y 2.

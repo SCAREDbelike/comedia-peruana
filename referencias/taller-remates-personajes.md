@@ -40,14 +40,14 @@ El insulto puede indicar que una persona formal perdió compostura, que dos amig
 
 Una **burla consentida** en contexto adulto es diferente de escoger a alguien sin permiso y exponerlo. Evitar ataques basados exclusivamente en rasgos protegidos o procedencia; preferir decisiones absurdas, poses, intereses y contradicciones.
 
-## Ejercicio de transformación
+## Ejemplo de transformación que aplica el agente
 
 Premisa neutra: «Mi vecino dice que es experto en encontrar trabajo». Remate obvio: «pero está desempleado». Prototipo con marco distinto: «Le va bien: ya conoce por su nombre a todos los vigilantes de entrevistas». Una prueba de actuación puede reemplazar la última oración por un gesto de saludo entre el vecino y el vigilante.
 
-**Tarea:** crear otros tres cierres (por estatus, por causalidad y por falsa interpretación). Hacer que el último término sea el más revelador; ensayarlo de pie. Si el público anticipa el final, escribir otros tres, no aumentar el volumen.
+**Instrucción para el agente:** generar internamente cierres por estatus, causalidad y falsa interpretación; escoger el más claro e inesperado. No asignar esta tarea al usuario, salvo que él pida practicar.
 
-## Prueba de escenario
+## Revisión interna antes de responder
 
-Graba versiones de 20, 40 y 60 segundos. Pide a dos oyentes contar qué estaba ocurriendo, señalar cuándo supieron el final e identificar una frase prescindible. Corregir primero **claridad**, luego **sorpresa**, luego **ritmo** y al final el registro ácido.
+El agente comprueba claridad de situación, sorpresa del giro, naturalidad oral, consistencia del personaje y economía verbal. No debe simular que ya probó una rutina en público.
 
-Ver [guía de observación](../videos/guia-de-visionado.md), [mecanismos](mecanismos-comicos.md) y [plan de práctica](../ejercicios/plan-14-dias.md).
+Ver [guía de observación](../videos/guia-de-visionado.md), [mecanismos](mecanismos-comicos.md) y [protocolo operativo](protocolo-generacion.md).

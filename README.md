@@ -1,10 +1,10 @@
-# Comedia Peruana — Laboratorio abierto de humor (v0.5.0)
+# Comedia Peruana — Laboratorio abierto de humor (v0.5.1)
 
 **Skill de escritura, análisis e improvisación humorística con identidad peruana.** Investiga las técnicas de los **cómicos ambulantes**, el humor de barrio, los sketches televisivos (como *El Especial del Humor*), el **stand-up**, la sátira cotidiana, los diálogos cómicos y la creación de personajes.
 
-**Propósito:** comprender por qué funciona un remate y aplicar ese conocimiento para producir **comedia original** en cualquier formato, sin copiar rutinas ni personajes ajenos.
+**Propósito:** guiar al asistente a comprender por qué funciona un remate y aplicar ese conocimiento para producir **comedia original** en cualquier formato, sin copiar rutinas ni personajes ajenos.
 
-> No es una colección de chistes robados ni un modelo reentrenado. Es una skill con biblioteca de referencias, ejercicios, ejemplos nuevos y pruebas de calidad.
+> No es una colección de chistes robados ni un modelo reentrenado. Es una skill con biblioteca de referencias, reglas de generación, ejemplos originales y pruebas de calidad.
 
 ## Explorar
 
@@ -16,7 +16,7 @@
 | [videos/guia-de-visionado.md](videos/guia-de-visionado.md) | Ruta de estudio de programas, sketches y shows callejeros |
 | [referencias/taller-remates-personajes.md](referencias/taller-remates-personajes.md) | Remates, picardía, doble sentido, personajes y actuación |
 | [referencias/contexto-cultural-y-fuentes.md](referencias/contexto-cultural-y-fuentes.md) | Fuentes académicas y periodísticas; Víctor Vich |
-| [ejercicios/plan-14-dias.md](ejercicios/plan-14-dias.md) | Entrenamiento con grabaciones y evaluación humana |
+| [referencias/protocolo-generacion.md](referencias/protocolo-generacion.md) | **Instrucciones operativas para que la IA genere y mejore comedia** |
 | [referencias/especial-del-humor.md](referencias/especial-del-humor.md) | Hipótesis de análisis de sketches de televisión |
 | [referencias/comicos-ambulantes.md](referencias/comicos-ambulantes.md) | Mecánicas de humor callejero y relación con la audiencia |
 | [referencias/mecanismos-comicos.md](referencias/mecanismos-comicos.md) | Herramientas aplicables a stand-up, escena y conversación |
@@ -35,6 +35,10 @@ La videoteca reúne **17 referencias enlazadas**, entre ellas:
 [Ir al catálogo de videos →](videos/README.md)
 
 **Ninguna ficha nueva se presenta como video visionado ni contiene transcripciones ajenas.**
+
+## Qué hace la skill
+
+Al activarla, el asistente emplea las referencias y el [protocolo de generación](referencias/protocolo-generacion.md) para idear premisas, construir personajes, proponer cierres alternativos y corregir errores antes de mostrarte su respuesta. Su finalidad es **producir mejores chistes, sketches, diálogos o análisis**, no asignarte tareas de entrenamiento.
 
 ## Uso rápido
 
