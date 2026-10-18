@@ -20,11 +20,11 @@ LISURAS = re.compile(
     re.IGNORECASE
 )
 CONTRASTE = re.compile(
-    r"\\b(?:pero|entonces|si supieran|la verdad|no voy a hablar|no voy a decir|jam[aá]s|nunca)\\b",
+    r"\b(?:pero|entonces|si supieran|la verdad|no voy a hablar|no voy a decir|jam[aá]s|nunca)\b",
     re.IGNORECASE
 )
-REPETICION = re.compile(r"\\b([a-záéíóúñ]{2,})\\s+\\1\\b", re.IGNORECASE)
-INTERROGATIVO = re.compile(r"\\b(?:qué|cómo|cuál|quién|dónde|para qué|por qué)\\b", re.IGNORECASE)
+REPETICION = re.compile(r"\b([a-záéíóúñ]{2,})\s+\1\b", re.IGNORECASE)
+INTERROGATIVO = re.compile(r"\b(?:qué|cómo|cuál|quién|dónde|para qué|por qué)\b", re.IGNORECASE)
 REACCION = re.compile(
     r"\[(?:risas?|carcajadas?|aplausos?|laughter|laughs|applause)\]"
     r"|\((?:risas?|carcajadas?|aplausos?)\)",
