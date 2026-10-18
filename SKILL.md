@@ -1,7 +1,7 @@
 ---
 name: comedia-peruana
 description: Skill general de humor peruano para stand-up, sketches, cómicos ambulantes, improvisación, sátira, creación de personajes, diálogos, anécdotas, juegos de palabras y remates. Actívala para escribir, analizar, mejorar o practicar comedia en cualquier contexto.
-version: 0.8.0
+version: 0.9.0
 ---
 
 # Comedia Peruana
@@ -96,7 +96,7 @@ Profundizar en [taller de remates, personajes y picardía](referencias/taller-re
 Puntuar 0–5: **claridad, sorpresa, especificidad, naturalidad oral, remate y originalidad**. Reescribir si dos parámetros caen por debajo de 3. La puntuación del modelo es una hipótesis; validar con audiencia humana. Usar [tests/casos.md](tests/casos.md).
 
 ## Evidencia que alimenta el conocimiento de la skill
-El catálogo de enlaces es material de **consulta**, no aprendizaje realizado sobre su contenido. Dos casos, [Marisol y Christian](analisis/fichas/eh-marisol-christian.md) y [Jaime no puede vivir sin Cristian](analisis/fichas/eh-jaime-cristian.md), disponen de análisis **textual** con intervalos y ocho observaciones originales cada uno, no de visionado. Consultar [motor audiovisual](analisis/README.md) para procesar subtítulos locales autorizados, seleccionar intervalos y comprobarlos con visionado. **Un candidato heurístico no es un remate confirmado; una transcripción sola no demuestra actuación o tono.**
+El catálogo de enlaces es material de **consulta**, no aprendizaje realizado sobre su contenido. Tres casos, [Marisol y Christian](analisis/fichas/eh-marisol-christian.md), [Jaime y Cristian](analisis/fichas/eh-jaime-cristian.md) y [Los mejores momentos](analisis/fichas/eh-mejores-momentos-3cfl.md), disponen de **análisis textual** con intervalos y ocho observaciones originales cada uno, no de visionado. En recopilaciones, separar escenas independientes y dejar sin clasificar el material ininteligible. Consultar [motor audiovisual](analisis/README.md) para procesar subtítulos locales autorizados, seleccionar intervalos y comprobarlos con visionado. **Un candidato heurístico no es un remate confirmado; una transcripción sola no demuestra actuación o tono.**
 
 Regla de promoción editorial:
 - **Metadatos**: solo título, enlace, canal y descripción.
@@ -107,7 +107,7 @@ Regla de promoción editorial:
 Los subtítulos automáticos pueden carecer por completo de puntuación y tener bloques consecutivos; no inferir pausas ni tono. Para lenguaje coloquial, consultar [pragmática de lisuras](referencias/pragmatica-lisuras.md). Los ejemplos de dobles sentidos tienen que respetar la intención y relación entre personajes: no reducir la broma a un estereotipo. Una corrección del usuario ayuda a la naturalidad, pero no debe fingirse observación de un video.
 
 ## Estudio de videos
-Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json), la [guía de visionado](videos/guia-de-visionado.md) y el [contexto cultural](referencias/contexto-cultural-y-fuentes.md). Hay **19 enlaces documentados; dos tienen análisis de SRT aportados por el usuario, sin visionado audiovisual**. Separa siempre:
+Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json), la [guía de visionado](videos/guia-de-visionado.md) y el [contexto cultural](referencias/contexto-cultural-y-fuentes.md). Hay **20 enlaces documentados; tres tienen análisis de SRT aportados por el usuario, sin visionado audiovisual**. Separa siempre:
 - **Enlace documental verificado**: la fuente publica el enlace, título y contexto.
 - **Video observado**: realmente se examinó el material con momento identificable.
 - **Hipótesis**: técnica que se propone investigar, no prueba de que aparezca en un video.

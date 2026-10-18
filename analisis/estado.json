@@ -1,7 +1,7 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "actualizado": "2026-10-17",
-  "descripcion": "Seguimiento editorial de 19 referencias: 2 con análisis textual de subtítulos, ninguna visionada.",
+  "descripcion": "20 referencias: 3 con análisis textual SRT, 17 pendientes de material; ninguna visionada.",
   "videos": [
     {
       "id": "eh-2004-programa",
@@ -162,6 +162,18 @@
       "fuente": "srt_aportado_usuario",
       "ficha": "analisis/fichas/eh-jaime-cristian.md",
       "nota": "Lectura textual de 86 cues, 12:27, sin visionado; gestos y tono pendientes."
+    },
+    {
+      "id": "eh-mejores-momentos-3cfl",
+      "url": "https://www.youtube.com/watch?v=3CFLHHM4zOk",
+      "estado": "transcripcion_analizada_sin_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "segmentos_textuales_anotados": 8,
+      "prioridad": "alta",
+      "fuente": "srt_aportado_usuario",
+      "ficha": "analisis/fichas/eh-mejores-momentos-3cfl.md",
+      "nota": "Recopilación, 88 pistas, 11:38. Ocho observaciones textuales, fragmentos no interpretables excluidos."
     }
   ]
 }

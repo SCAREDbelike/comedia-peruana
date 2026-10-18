@@ -1,11 +1,11 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "fecha_catalogacion": "2026-10-17",
   "avisos": [
-    "19 enlaces catalogados, 2 casos con análisis textual desde archivos SRT aportados por el usuario, 17 pendientes de material.",
-    "Ningún video del catálogo se ha marcado como visionado directamente.",
-    "Las observaciones textuales contienen descripciones propias, NO transcripciones completas, gestos ni validaciones de recepción.",
-    "Reconocimiento automático y subtítulos contiguos pueden distorsionar palabras, pausas y atribución de voces."
+    "20 videos catalogados; 3 analizados únicamente desde subtítulos aportados por usuario y 17 pendientes.",
+    "Ningún registro representa visionado audiovisual directo.",
+    "Las recopilaciones se dividen por segmentos independientes sin inventar continuidad entre escenas.",
+    "Las observaciones son paráfrasis y no incluyen transcripciones ajenas completas; los textos automáticos pueden contener fallos graves."
   ],
   "videos": [
     {
@@ -377,6 +377,31 @@
       "estado_observacion": "pendiente_de_visionado_directo",
       "estado_analisis": "transcripcion_analizada_sin_visionado",
       "ficha_analisis": "analisis/fichas/eh-jaime-cristian.md",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-mejores-momentos-3cfl",
+      "obra": "El Especial del Humor",
+      "titulo": "Los mejores momentos de El Especial del Humor (título de SRT aportado por usuario)",
+      "url": "https://www.youtube.com/watch?v=3CFLHHM4zOk",
+      "publicador": "no_verificado",
+      "fuente": "https://www.youtube.com/watch?v=3CFLHHM4zOk",
+      "origen": "enlace_y_subtitulos_aportados_usuario",
+      "fecha_publicacion": null,
+      "tema": [
+        "recopilacion",
+        "satira_politica",
+        "inversion_ironica",
+        "escalada_comercial",
+        "vendedor_de_humo",
+        "celos_contraproducentes",
+        "cambios_de_sketch"
+      ],
+      "objetivo_estudio": "Estudiar inversión moral en el banquete, discurso público, error de celos y dos secuencias de vendedores, sin atribuir continuidad entre clips.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "estado_analisis": "transcripcion_analizada_sin_visionado",
+      "ficha_analisis": "analisis/fichas/eh-mejores-momentos-3cfl.md",
       "transcripcion_incluida": false,
       "material_descargado": false
     }

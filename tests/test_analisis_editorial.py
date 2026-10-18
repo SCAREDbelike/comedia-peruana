@@ -7,13 +7,14 @@ ROOT=Path(__file__).resolve().parents[1]
 CASOS={
     "eh-marisol-christian":"analisis/fichas/eh-marisol-christian.md",
     "eh-jaime-cristian":"analisis/fichas/eh-jaime-cristian.md",
+    "eh-mejores-momentos-3cfl":"analisis/fichas/eh-mejores-momentos-3cfl.md",
 }
 
 class TestAnalisisEditorial(unittest.TestCase):
     def test_fichas_catalogo_estado(self):
         catalogo=json.loads((ROOT/"videos/catalogo.json").read_text(encoding="utf-8"))
         estado=json.loads((ROOT/"analisis/estado.json").read_text(encoding="utf-8"))
-        self.assertGreaterEqual(len(catalogo["videos"]),19)
+        self.assertGreaterEqual(len(catalogo["videos"]),20)
         self.assertEqual(len(catalogo["videos"]),len(estado["videos"]))
         index={v["id"]:v for v in catalogo["videos"]}
         seguimiento={v["id"]:v for v in estado["videos"]}
@@ -35,6 +36,16 @@ class TestAnalisisEditorial(unittest.TestCase):
                 self.assertEqual(len(data["segmentos"]),seguimiento[video_id]["segmentos_textuales_anotados"])
                 self.assertTrue(all(x["inicio"]<x["fin"] for x in data["segmentos"]))
                 self.assertEqual(len({x["id"] for x in data["segmentos"]}),8)
+
+    def test_recopilacion_tercer_srt(self):
+        data=json.loads((ROOT/"analisis/observaciones/eh-mejores-momentos-3cfl.json").read_text(encoding="utf-8"))
+        meta=data["datos_archivo"]
+        self.assertEqual(meta["bloques_subtitulos"],88)
+        self.assertEqual(meta["duracion_hasta"],"00:11:38")
+        self.assertEqual(meta["intervalos_con_huecos_positivos"],0)
+        self.assertEqual(meta["etiquetas_textuales"],{"Música":12,"Aplausos":6,"Risas":4})
+        self.assertTrue(any(x["grado_confianza_textual"]=="baja" for x in data["segmentos"]))
+        self.assertTrue(all(x["descripcion"].strip() and x["por_ver"].strip() for x in data["segmentos"]))
 
     def test_muestra_segundo_srt(self):
         data=json.loads((ROOT/"analisis/observaciones/eh-jaime-cristian.json").read_text(encoding="utf-8"))

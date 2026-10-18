@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.9.0 — 2026-10-17
+- Tercer SRT aportado por usuario: *Los mejores momentos de El Especial del Humor*, 88 pistas, 11:38, aproximadamente 830 palabras.
+- Ocho observaciones textuales con confianza editorial y tiempos, enfatizando sátira, inversión irónica, discurso solidario exagerado, celos contraproducentes y ventas hiperbólicas.
+- Catálogo pasa a **20 enlaces**: 3 con SRT analizado, 17 aún sin material, ninguno visionado.
+- La recopilación se trató como escenas distintas; se excluyeron segmentos no inteligibles y no se copiaron las transcripciones.
+- Actualizada prueba automática de consistencia del catálogo y estado de evidencia.
+
+
 ## 0.8.0 — 2026-10-17
 - Segundo sketch con archivo SRT aportado por el usuario: *Jaime no puede vivir sin Cristian*, 86 bloques, 12:27, aproximadamente 1159 palabras.
 - Ocho observaciones textuales sobre objetivos contrapuestos, malentendido espacial, insinuación sostenida, melodrama paródico y callback de objeto.

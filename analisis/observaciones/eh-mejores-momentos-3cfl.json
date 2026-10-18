@@ -1,0 +1,123 @@
+{
+  "version": "0.9.0",
+  "id": "eh-mejores-momentos-3cfl",
+  "url": "https://www.youtube.com/watch?v=3CFLHHM4zOk",
+  "medio": "archivo_srt_aportado_por_usuario",
+  "estado": "transcripcion_analizada_sin_visionado",
+  "analisis_realizado": "lectura_directa_del_srt_y_parafrasis_original",
+  "datos_archivo": {
+    "bloques_subtitulos": 88,
+    "inicio": "00:00:00",
+    "duracion_hasta": "00:11:38",
+    "palabras_aproximadas": 830,
+    "intervalos_con_huecos_positivos": 0,
+    "etiquetas_textuales": {
+      "Música": 12,
+      "Aplausos": 6,
+      "Risas": 4
+    },
+    "notas": [
+      "Recopilación de escenas: no hay una sola trama continua.",
+      "Las 88 pistas son contiguas; no permiten calcular silencios reales.",
+      "Reconocimiento automático defectuoso, especialmente al principio y en el desenlace del último anuncio.",
+      "Las etiquetas [Música], [Risas] y [Aplausos] no prueban su presencia en el audio.",
+      "Se omiten de las ocho observaciones los fragmentos 06:25–08:15 por falta de inteligibilidad suficiente."
+    ]
+  },
+  "segmentos": [
+    {
+      "id": "01",
+      "inicio": "00:00:00",
+      "fin": "00:02:59",
+      "cues": "1-17",
+      "mecanismo": "juego_de_reglas_y_comparacion_numerica",
+      "descripcion": "La conversación alude repetidamente a elegir cifras, a decidir si otro número es mayor o menor y a evitar confusiones. La transcripción está especialmente deteriorada y no permite reconstruir el juego ni su desenlace.",
+      "interpretacion": "Hipótesis débil: juego de reglas y desorientación progresiva. No es posible identificar un remate verificado.",
+      "grado_confianza_textual": "baja",
+      "por_ver": "Identificar la regla real del juego, las respuestas exactas y el contexto escénico antes de atribuir una técnica."
+    },
+    {
+      "id": "02",
+      "inicio": "00:02:59",
+      "fin": "00:03:41",
+      "cues": "18-22",
+      "mecanismo": "inversion_ironica_de_la_compasion",
+      "descripcion": "Un personaje compara una mesa de banquete con mesas vacías de la población y se dice afligido; otro afirma experimentar el efecto opuesto y relaciona la mesa vacía con su propio apetito.",
+      "interpretacion": "El segundo personaje invierte la respuesta moralmente esperable: donde se anticipa compasión aparece una reacción egoísta. Es una inversión de valores útil para sátira de conductas.",
+      "grado_confianza_textual": "alta_para_contraste",
+      "por_ver": "Distinguir exactamente los hablantes y el tono de la réplica; no atribuir gestos."
+    },
+    {
+      "id": "03",
+      "inicio": "00:03:41",
+      "fin": "00:05:39",
+      "cues": "23-35",
+      "mecanismo": "escalada_de_discurso_solidario_y_contraste_con_comida",
+      "descripcion": "Se repite una estructura verbal centrada en los ciudadanos que carecen de alimentos; los ejemplos pasan por distintas comidas, con detalles cada vez más concretos. Algunos sustantivos resultan incoherentes por errores del ASR.",
+      "interpretacion": "Se puede investigar la reiteración con variación y el contraste entre retórica solemne y detalles alimentarios, pero las palabras clave del posible remate no son confiables.",
+      "grado_confianza_textual": "media",
+      "por_ver": "Corregir sustantivos mal reconocidos y comprobar si existe interrupción o contraste físico durante el discurso."
+    },
+    {
+      "id": "04",
+      "inicio": "00:05:39",
+      "fin": "00:06:25",
+      "cues": "36-39",
+      "mecanismo": "justificacion_publica_que_desactiva_acusacion",
+      "descripcion": "Tras una frase abrupta sobre comer y trabajar, una voz niega una interpretación negativa de sus actos ante periodistas y explica un envío de huevos como gesto benevolente; concluye negando agresividad.",
+      "interpretacion": "El texto presenta un reencuadre justificativo: convertir una posible acusación en un acto de buena intención. El hecho original y la naturaleza de la acusación quedan oscuros por el SRT.",
+      "grado_confianza_textual": "media",
+      "por_ver": "Comprobar el gesto o acontecimiento previo que la explicación intenta justificar y si hay ironía actoral."
+    },
+    {
+      "id": "05",
+      "inicio": "00:08:15",
+      "fin": "00:09:14",
+      "cues": "59-66",
+      "mecanismo": "confesion_privada_y_fingimiento_por_celos",
+      "descripcion": "Un personaje admite que inventó la existencia de una pareja extranjera para provocar celos y que la maniobra produjo efectos contrarios a los deseados. El intercambio deriva hacia una petición que el SRT registra de forma confusa.",
+      "interpretacion": "La intención de manipular la reacción ajena provoca una consecuencia inversa: ironía situacional y fracaso de una estrategia de celos.",
+      "grado_confianza_textual": "media",
+      "por_ver": "Distinguir el escenario, interlocutores y objeto de la petición; los nombres reconocidos pueden estar alterados."
+    },
+    {
+      "id": "06",
+      "inicio": "00:09:14",
+      "fin": "00:10:02",
+      "cues": "67-73",
+      "mecanismo": "venta_de_objeto_milagroso_y_demostracion_prometida",
+      "descripcion": "Un personaje ofrece un producto con supuestos cristales especiales; la venta asocia el objeto a capacidades extraordinarias para revelar aspectos ocultos de las personas y propone una demostración inmediata.",
+      "interpretacion": "Parodia del vendedor con autoridad inventada: ofrece procedencia exótica y capacidades imposibles para que el comprador acepte la ficción.",
+      "grado_confianza_textual": "media",
+      "por_ver": "El tipo exacto de artículo y la demostración deben comprobarse en el video; no se pueden inferir efectos visuales del SRT."
+    },
+    {
+      "id": "07",
+      "inicio": "00:10:02",
+      "fin": "00:10:50",
+      "cues": "74-80",
+      "mecanismo": "acumulacion_de_beneficios_y_presion_comercial",
+      "descripcion": "Continúa el discurso de ventas: se compara el artículo con objetos comunes, se agregan ventajas fantásticas, aparece una referencia a un evento deportivo y se ofrece un precio o promoción con cifras poco claras.",
+      "interpretacion": "Acumulación desmedida de prestaciones seguida de una oferta urgente. La exageración causal puede funcionar como parodia de infomerciales.",
+      "grado_confianza_textual": "media",
+      "por_ver": "No fijar precio, promociones ni el alcance del objeto: el reconocimiento de números es inestable."
+    },
+    {
+      "id": "08",
+      "inicio": "00:10:50",
+      "fin": "00:11:38",
+      "cues": "81-88",
+      "mecanismo": "segundo_vendedor_y_beneficio_contraproducente",
+      "descripcion": "Aparece una venta de equipo de ejercicio con un obsequio asociado; el diálogo alude al peso del aparato y a una petición de agua. Varias palabras decisivas para el remate están mal transcritas.",
+      "interpretacion": "Puede ser una sátira de venta insistente y regalos poco prácticos, pero el desenlace cómico exacto es incierto.",
+      "grado_confianza_textual": "baja",
+      "por_ver": "Comprobar el producto, los pesos, la acción corporal y la reacción escénica antes de extraer una regla fuerte."
+    }
+  ],
+  "limites": [
+    "No se vio ni escuchó directamente el audiovisual.",
+    "No se verificaron intérpretes, escenarios, gestos ni reacciones del público.",
+    "La fuerza del posible remate de la primera escena y del último anuncio permanece desconocida.",
+    "No se publica la transcripción completa; solo paráfrasis de estudio."
+  ]
+}

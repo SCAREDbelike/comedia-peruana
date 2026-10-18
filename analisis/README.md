@@ -1,8 +1,8 @@
-# Motor de investigación audiovisual de Comedia Peruana (v0.8.0)
+# Motor de investigación audiovisual de Comedia Peruana (v0.9.0)
 
 ## Qué existe y qué no existe todavía
 
-- **19 videos catalogados**: por ahora enlaces y metadatos. Dos cuentan con análisis textual de subtítulos; **ninguno se marca como visionado**.
+- **20 videos catalogados**: por ahora enlaces y metadatos. Tres cuentan con análisis textual de subtítulos; **ninguno se marca como visionado**.
 - **Transcripción opcional local**: `scripts/transcribir_audio.py` convierte un archivo audiovisual propio o autorizado en SRT con Faster Whisper. La transcripción automática puede confundir voces, acentos y lisuras.
 - **Análisis temporal local**: `scripts/analizar_subtitulos.py` extrae pistas SRT/VTT con marcas de tiempo y propone fragmentos para revisar. **No detecta remates ni risas con certeza**, y no ve gestos, pausas acústicas ni actuaciones.
 - **Conocimiento público editorial**: se publica solo una ficha breve con conclusiones comprobadas y redactadas en palabras propias; nunca transcripciones completas, audio ni videos de terceros.
@@ -68,12 +68,19 @@ Se puede trabajar solo con subtítulos sin el video, pero el estado es `transcri
 - El SRT es contiguo, con expresiones reconocidas erróneamente y un número reducido de marcas como `[Risas]`; estas etiquetas no prueban reacciones.
 - **No se han comprobado audios, gestos, objetos físicos ni ritmo escénico.** Las fichas son análisis textuales, no visionados.
 
+## Tercer caso con SRT real (2026-10-17)
+
+- [Los mejores momentos](fichas/eh-mejores-momentos-3cfl.md): **88 pistas / 11:38**, ocho observaciones sobre *fragmentos independientes* [en JSON](observaciones/eh-mejores-momentos-3cfl.json).
+- El archivo contiene etiquetas textuales (12 `[Música]`, 6 `[Aplausos]`, 4 `[Risas]`), pero el SRT **no prueba** que hayan ocurrido acústicamente.
+- Las pistas son contiguas y el reconocimiento es impreciso: no se infieren pausas, gestos, intervenciones ni personajes donde faltan datos.
+- Es una **recopilación**: cada bloque requiere inicio, contexto y mecanismo propios; no mezclar escenas distintas.
+
 ## Primeros dos casos priorizados
 
 - [Las viejas pitucas de La Molina #01](fichas/eh-molina-01.md): estudio de personajes, estatus y registros.
 - [Chino Risas Vol.1](fichas/ca-chino-vol1.md): interacción, pausas y remates en comedia de plaza.
 
-Ambas fichas son **protocolos de análisis pendientes**, NO hallazgos de escenas vistas. Tampoco son escenas vistas los casos de Marisol y Christian y Jaime y Cristian: sus observaciones provienen solamente de subtítulos.
+Ambas fichas son **protocolos de análisis pendientes**, NO hallazgos de escenas vistas. Tampoco son escenas vistas los casos de Marisol y Christian, Jaime y Cristian y Los mejores momentos: sus observaciones provienen solamente de subtítulos.
 
 ## Fuentes y acceso
 

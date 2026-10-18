@@ -45,8 +45,17 @@
 - Para asimetría cómica: un personaje busca algo preciso, el segundo interpreta cada señal según su deseo; el contraste debe producir decisiones, no insultos o estereotipos por sí solos.
 - Estas herramientas son **generalizaciones editoriales de análisis textual**, no hallazgos audiovisuales validados. Crear escenas nuevas con otros personajes y otro tema.
 
+## Técnicas de la tercera ficha: sátira y vendedores
+
+- Inversión irónica: establecer primero una expectativa de virtud o empatía; el segundo personaje revela un beneficio egoísta incompatible.
+- Publicidad exagerada: un vendedor inventa un aura técnica o especial para el artículo y agrega prestaciones cada vez más disparatadas; el cierre debe contradecir la utilidad real, no ser una lista sin giro.
+- Justificación interesada: alguien presenta como altruismo una decisión que necesita excusar. Para que el remate se entienda, mostrar la contradicción concreta.
+- Celos contraproducentes: un personaje manipula una expectativa afectiva y la consecuencia ocurre en su contra.
+- Una compilación contiene **escenas independientes**: nunca asumir un solo personaje, situación o causalidad a lo largo de todo el video.
+- Si el SRT es ilegible, no inferir actuaciones, palabras ni desenlaces. **No fingir una comprensión que no se tiene**.
+
 ## Evidencia y límites
 
-Las 19 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. Los casos [Marisol y Christian](../analisis/fichas/eh-marisol-christian.md) y [Jaime y Cristian](../analisis/fichas/eh-jaime-cristian.md) documentan mecanismos desde SRT, pero **no** acreditan actuación, silencios ni reacciones del público. Solo atribuir un gesto, remate o minuto audiovisual a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
+Las 20 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. Los casos [Marisol y Christian](../analisis/fichas/eh-marisol-christian.md), [Jaime y Cristian](../analisis/fichas/eh-jaime-cristian.md) y [Los mejores momentos](../analisis/fichas/eh-mejores-momentos-3cfl.md) documentan mecanismos desde SRT, pero **no** acreditan actuación, silencios ni reacciones del público. Solo atribuir un gesto, remate o minuto audiovisual a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
 
 La skill mejora un **proceso de respuesta**, no reentrena el modelo. Sus guías y [casos de evaluación](../tests/casos.md) funcionan como referencias y pruebas editoriales.
