@@ -1,7 +1,7 @@
 ---
 name: comedia-peruana
 description: Skill general de humor peruano para stand-up, sketches, cómicos ambulantes, improvisación, sátira, creación de personajes, diálogos, anécdotas, juegos de palabras y remates. Actívala para escribir, analizar, mejorar o practicar comedia en cualquier contexto.
-version: 0.5.1
+version: 0.6.0
 ---
 
 # Comedia Peruana
@@ -94,6 +94,17 @@ Profundizar en [taller de remates, personajes y picardía](referencias/taller-re
 
 ## Control de calidad
 Puntuar 0–5: **claridad, sorpresa, especificidad, naturalidad oral, remate y originalidad**. Reescribir si dos parámetros caen por debajo de 3. La puntuación del modelo es una hipótesis; validar con audiencia humana. Usar [tests/casos.md](tests/casos.md).
+
+## Evidencia que alimenta el conocimiento de la skill
+El catálogo de enlaces es material de **consulta**, no aprendizaje realizado sobre su contenido. Consultar [motor audiovisual](analisis/README.md) para procesar subtítulos locales autorizados, seleccionar intervalos y comprobarlos con visionado. **Un candidato heurístico no es un remate confirmado; una transcripción sola no demuestra actuación o tono.**
+
+Regla de promoción editorial:
+- **Metadatos**: solo título, enlace, canal y descripción.
+- **Transcripción analizada**: se pueden proponer indicios textuales, no gestos o risas reales.
+- **Video revisado**: solo con un intervalo reproducido y una descripción propia verificable.
+- **Patrón de comedia**: se generaliza tras comprobar el mecanismo, sin copiar frases ni personajes.
+
+Para lenguaje coloquial, consultar [pragmática de lisuras](referencias/pragmatica-lisuras.md). Una corrección del usuario ayuda a la naturalidad, pero no debe fingirse observación de un video.
 
 ## Estudio de videos
 Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json), la [guía de visionado](videos/guia-de-visionado.md) y el [contexto cultural](referencias/contexto-cultural-y-fuentes.md). Hay **17 enlaces documentados; no 17 vídeos visionados**. Separa siempre:

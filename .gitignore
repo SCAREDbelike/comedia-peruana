@@ -6,3 +6,11 @@ videos-locales/
 *.mp4
 *.srt
 *.vtt
+
+# Material audiovisual y reportes locales: nunca subir a Git
+analisis-locales/
+medios-locales/
+*.wav
+*.mp3
+*.m4a
+*.webm

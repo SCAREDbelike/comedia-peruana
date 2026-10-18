@@ -1,0 +1,143 @@
+{
+  "version": "0.6.0",
+  "actualizado": "2026-10-17",
+  "descripcion": "Cola editorial; no constituye evidencia de análisis audiovisual.",
+  "videos": [
+    {
+      "id": "eh-2004-programa",
+      "url": "https://www.youtube.com/watch?v=jAoLFqbajvA",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-molina-01",
+      "url": "https://www.youtube.com/watch?v=CSHVcaZ6Os0",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "alta"
+    },
+    {
+      "id": "eh-molina-03",
+      "url": "https://www.youtube.com/watch?v=3khcVkxc5v0",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-toledo-ilian",
+      "url": "https://www.youtube.com/watch?v=OIbRB8Rd2UM",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-galan-jorgito",
+      "url": "https://www.youtube.com/watch?v=ORyOgSVvw0w",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-claudio-autori",
+      "url": "https://www.youtube.com/watch?v=Z2IdB3u1J-8",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-fuji-kenji",
+      "url": "https://www.youtube.com/watch?v=hYnkidAVc6M",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "ca-reyes-risa-2016",
+      "url": "https://www.youtube.com/watch?v=W5xOpDj5fAg",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-2004-programa-05",
+      "url": "https://www.youtube.com/watch?v=8GLaSsqgUfk",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-divan-karla-01",
+      "url": "https://www.youtube.com/watch?v=O7yq7_9PRAg",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "eh-divan-karla-02",
+      "url": "https://www.youtube.com/watch?v=ZwHRyBK9SuA",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "ca-chino-vol1",
+      "url": "https://www.youtube.com/watch?v=IGOLXyVS2TU",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "alta"
+    },
+    {
+      "id": "ca-chino-vol3",
+      "url": "https://www.youtube.com/watch?v=IN7w57Xufps",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "ca-chino-vol2-parte1",
+      "url": "https://www.youtube.com/watch?v=VUz6-MxL-kU",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "ca-herederos-policia",
+      "url": "https://www.youtube.com/watch?v=iDuJb3_CoQ4",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "ca-herederos-frejolito",
+      "url": "https://www.youtube.com/watch?v=gsklpFzdC8s",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    },
+    {
+      "id": "ca-marcianitos-vol2",
+      "url": "https://www.youtube.com/watch?v=zYLHaM6zrho",
+      "estado": "pendiente_de_material_o_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "prioridad": "normal"
+    }
+  ]
+}

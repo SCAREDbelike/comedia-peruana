@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 0.6.0 — 2026-10-17
+- Implementación de un **motor local de análisis de subtítulos** SRT/VTT para generar candidatos temporales, con señales y límites explícitos.
+- Nuevo transcriptor opcional de medios locales autorizados con Faster Whisper.
+- Estado de los **17 videos** separado de evidencias; 2 fichas preliminares priorizadas para revisión audiovisual real.
+- Guía reproducible del flujo archivo → subtítulos → candidatos → visionado → ficha → regla cómica.
+- Referencia de pragmática del habla peruana a partir de corrección conversacional, expresamente no atribuida a un video.
+- Se conservan originales y vistas previas en rutas ignoradas por Git; no se publican transcripciones completas.
+- Tests de parseo, detección heurística, temporalidad y estado pendiente.
+
+
 ## 0.5.1 — 2026-10-17
 - Corregido el alcance: **skill para generar humor con IA, no entrenamiento del usuario**.
 - Eliminado el plan de 14 días.
