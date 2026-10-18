@@ -1,6 +1,6 @@
 # Videoteca de comedia peruana
 
-**20 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
+**21 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
 
 > **Estado al 17 de octubre de 2026:** se verificó que existen referencias públicas indexadas o enlaces publicados en prensa. **No se han visionado íntegramente ni analizado marcas de tiempo**; por tanto, los temas son hipótesis de investigación, no conclusiones del material.
 
@@ -32,6 +32,8 @@ Guía de trabajo: [cómo ver y documentar los videos](guia-de-visionado.md). **E
 | `eh-jaime-cristian` | [Jaime no puede vivir sin Cristian](https://www.youtube.com/watch?v=4Q3s5twc1a0) | enlace y SRT aportados por el usuario | **8 observaciones textuales** en [ficha](../analisis/fichas/eh-jaime-cristian.md); no se ha comprobado la actuación. |
 
 | `eh-mejores-momentos-3cfl` | [Los mejores momentos de El Especial del Humor](https://www.youtube.com/watch?v=3CFLHHM4zOk) | enlace y SRT aportados por el usuario | **8 observaciones de texto** en [ficha](../analisis/fichas/eh-mejores-momentos-3cfl.md); escenas independientes y comprobación audiovisual pendiente. |
+
+| `hh-papa-peruano-t10` | [Hablando Huevadas, T10](https://www.youtube.com/watch?v=q5y_vDfKG2I) | SRT enviado por usuario | [11 observaciones textuales](../analisis/fichas/hh-papa-peruano-t10.md); visionado pendiente. |
 
 ## Fuentes externas de contraste
 - [Reportaje de La República con enlaces incrustados](https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor).

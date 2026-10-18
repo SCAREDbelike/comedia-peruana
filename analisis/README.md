@@ -1,8 +1,8 @@
-# Motor de investigación audiovisual de Comedia Peruana (v0.9.0)
+# Motor de investigación audiovisual de Comedia Peruana (v0.10.0)
 
 ## Qué existe y qué no existe todavía
 
-- **20 videos catalogados**: por ahora enlaces y metadatos. Tres cuentan con análisis textual de subtítulos; **ninguno se marca como visionado**.
+- **21 videos catalogados**: por ahora enlaces y metadatos. Cuatro cuentan con análisis textual de subtítulos; **ninguno se marca como visionado**.
 - **Transcripción opcional local**: `scripts/transcribir_audio.py` convierte un archivo audiovisual propio o autorizado en SRT con Faster Whisper. La transcripción automática puede confundir voces, acentos y lisuras.
 - **Análisis temporal local**: `scripts/analizar_subtitulos.py` extrae pistas SRT/VTT con marcas de tiempo y propone fragmentos para revisar. **No detecta remates ni risas con certeza**, y no ve gestos, pausas acústicas ni actuaciones.
 - **Conocimiento público editorial**: se publica solo una ficha breve con conclusiones comprobadas y redactadas en palabras propias; nunca transcripciones completas, audio ni videos de terceros.
@@ -74,6 +74,12 @@ Se puede trabajar solo con subtítulos sin el video, pero el estado es `transcri
 - El archivo contiene etiquetas textuales (12 `[Música]`, 6 `[Aplausos]`, 4 `[Risas]`), pero el SRT **no prueba** que hayan ocurrido acústicamente.
 - Las pistas son contiguas y el reconocimiento es impreciso: no se infieren pausas, gestos, intervenciones ni personajes donde faltan datos.
 - Es una **recopilación**: cada bloque requiere inicio, contexto y mecanismo propios; no mezclar escenas distintas.
+
+## Cuarto caso con SRT: comedia conversacional
+
+- [Hablando Huevadas T10](fichas/hh-papa-peruano-t10.md): **655 pistas / 1:21:17**; 11 observaciones [en JSON](observaciones/hh-papa-peruano-t10.json).
+- Aporta contraste entre comedia conversacional/crowdwork y sketch. Ver [guía de humor conversacional](../referencias/humor-conversacional.md).
+- Sin visionado, sin atribuir ritmo, gestos ni cantidad real de improvisación.
 
 ## Primeros dos casos priorizados
 

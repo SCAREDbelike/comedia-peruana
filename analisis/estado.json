@@ -1,7 +1,7 @@
 {
-  "version": "0.9.0",
+  "version": "0.10.0",
   "actualizado": "2026-10-17",
-  "descripcion": "20 referencias: 3 con análisis textual SRT, 17 pendientes de material; ninguna visionada.",
+  "descripcion": "21 referencias: 4 analizadas desde SRT, 17 pendientes, ninguna visionada.",
   "videos": [
     {
       "id": "eh-2004-programa",
@@ -174,6 +174,18 @@
       "fuente": "srt_aportado_usuario",
       "ficha": "analisis/fichas/eh-mejores-momentos-3cfl.md",
       "nota": "Recopilación, 88 pistas, 11:38. Ocho observaciones textuales, fragmentos no interpretables excluidos."
+    },
+    {
+      "id": "hh-papa-peruano-t10",
+      "url": "https://www.youtube.com/watch?v=q5y_vDfKG2I",
+      "estado": "transcripcion_analizada_sin_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "segmentos_textuales_anotados": 11,
+      "prioridad": "alta",
+      "fuente": "srt_aportado_usuario",
+      "ficha": "analisis/fichas/hh-papa-peruano-t10.md",
+      "nota": "655 bloques hasta 1:21:17. Sin visionado."
     }
   ]
 }

@@ -1,0 +1,154 @@
+{
+  "version": "0.10.0",
+  "id": "hh-papa-peruano-t10",
+  "url": "https://www.youtube.com/watch?v=q5y_vDfKG2I",
+  "medio": "srt_aportado_por_usuario",
+  "estado": "transcripcion_analizada_sin_visionado",
+  "analisis_realizado": "lectura_del_srt_completo_y_sintesis_original",
+  "datos_archivo": {
+    "bloques_subtitulos": 655,
+    "inicio": "00:00:13",
+    "duracion_hasta": "01:21:17",
+    "palabras_aproximadas": 12663,
+    "intervalos_con_huecos_positivos": 0,
+    "etiquetas_textuales": {
+      "Música": 19,
+      "Aplausos": 12,
+      "Risas": 3
+    },
+    "notas": [
+      "ASR no diferencia voces con fiabilidad y elimina pausas entre bloques.",
+      "La mención de improvisación en el diálogo no prueba que cada segmento sea improvisado.",
+      "Un tramo posterior al 1:02:15 incluye un relato de duelo; no se trata como material para burla."
+    ]
+  },
+  "segmentos": [
+    {
+      "id": "01",
+      "inicio": "00:00:13",
+      "fin": "00:01:12",
+      "cues": "1-8",
+      "mecanismo": "observacion_del_publico",
+      "descripcion": "Parten del hecho de que actúan un domingo y notan a un espectador aparentemente somnoliento.",
+      "interpretacion": "Un detalle real de la situación se convierte en premisa instantánea.",
+      "confianza_textual": "alta",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "02",
+      "inicio": "00:04:45",
+      "fin": "00:08:10",
+      "cues": "38-64",
+      "mecanismo": "contradiccion_laboral_del_espectador",
+      "descripcion": "Un asistente se presenta como supervisor, cuenta fallos de una empresa y dice que quiere ascender.",
+      "interpretacion": "La contradicción entre pedir un ascenso y exponer problemas internos sostiene varias réplicas.",
+      "confianza_textual": "alta",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "03",
+      "inicio": "00:09:30",
+      "fin": "00:13:13",
+      "cues": "76-103",
+      "mecanismo": "rareza_transformada_en_serie_de_preguntas",
+      "descripcion": "Preguntan al trabajador si probó alimento para animales; la contestación abre varias preguntas adicionales.",
+      "interpretacion": "Mantener una rareza específica genera un hilo cómico sin saltos al azar.",
+      "confianza_textual": "alta",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "04",
+      "inicio": "00:24:23",
+      "fin": "00:27:19",
+      "cues": "196-218",
+      "mecanismo": "solemnidad_vs_confianza_y_pivot",
+      "descripcion": "Comentan un saludo peruano al papa y exageran la respuesta posible; el otro conductor deriva a cómo reconocer compatriotas.",
+      "interpretacion": "Contraste de registro y transición causal entre dos observaciones.",
+      "confianza_textual": "media",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "05",
+      "inicio": "00:27:12",
+      "fin": "00:30:30",
+      "cues": "218-245",
+      "mecanismo": "regateo_que_termina_en_perdida",
+      "descripcion": "Alguien celebra haber conseguido un descuento, pero la suma total pagada termina contradiciendo su victoria.",
+      "interpretacion": "El segundo comediante revela el error de la lógica económica en el propio relato.",
+      "confianza_textual": "alta",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "06",
+      "inicio": "00:31:40",
+      "fin": "00:34:06",
+      "cues": "255-275",
+      "mecanismo": "institucion_absurda",
+      "descripcion": "Narran una supuesta competición de médiums, que dispara preguntas sobre reglas y profesionalización.",
+      "interpretacion": "Tratar una premisa extraña como una institución ordinaria con requisitos formales.",
+      "confianza_textual": "media",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "07",
+      "inicio": "00:43:54",
+      "fin": "00:45:58",
+      "cues": "355-370",
+      "mecanismo": "dato_tardio_que_desmiente",
+      "descripcion": "La narración solemne de un médium tropieza con un dato posterior sobre un padre que invalida la premisa.",
+      "interpretacion": "La información final reinterpreta el relato anterior y habilita un contrarremate.",
+      "confianza_textual": "media",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "08",
+      "inicio": "00:47:58",
+      "fin": "00:49:37",
+      "cues": "388-401",
+      "mecanismo": "metacomedia_del_chiste_no_entendido",
+      "descripcion": "Un conductor recuerda un juego verbal que pasó desapercibido en otro programa y comenta ese fracaso.",
+      "interpretacion": "Ingenio no equivale a eficacia: un chiste que necesita explicación se debe reescribir.",
+      "confianza_textual": "alta",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "09",
+      "inicio": "00:59:06",
+      "fin": "01:02:15",
+      "cues": "479-502",
+      "mecanismo": "contradiccion_en_una_respuesta_del_publico",
+      "descripcion": "Un participante dice tener premoniciones pero cuenta que se da cuenta después del hecho; el dúo evidencia el contrasentido.",
+      "interpretacion": "Escuchar literalmente al interlocutor puede producir una respuesta breve mucho más específica que un chiste memorizado.",
+      "confianza_textual": "alta",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "10",
+      "inicio": "01:13:43",
+      "fin": "01:14:45",
+      "cues": "596-604",
+      "mecanismo": "callbacks_largos",
+      "descripcion": "Recuerdan a visitantes, un supervisor y la paradoja del participante anterior después de mucho tiempo.",
+      "interpretacion": "Recuperar una información conocida de la misma función permite rematar sin repetir todo el contexto.",
+      "confianza_textual": "alta",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    },
+    {
+      "id": "11",
+      "inicio": "01:14:53",
+      "fin": "01:17:20",
+      "cues": "605-625",
+      "mecanismo": "papelitos_activan_replicas",
+      "descripcion": "Se anuncian mensajes breves aportados por asistentes y los conductores reaccionan a las propuestas.",
+      "interpretacion": "Una pregunta o nota ajena es materia prima para una réplica, pero no prueba improvisación completa.",
+      "confianza_textual": "media",
+      "pendiente_verificacion": "No atribuir tono, gestos, duración de silencios, espontaneidad total ni recepción del público sin audio y video."
+    }
+  ],
+  "limites": [
+    "No visionado ni escucha del audiovisual.",
+    "No publicar subtítulos completos ni detalles privados de asistentes.",
+    "Las marcas de risas/aplausos del SRT no equivalen a reacciones verificadas.",
+    "Los principios comicos se adaptan a formatos nuevos sin copiar rutinas."
+  ]
+}

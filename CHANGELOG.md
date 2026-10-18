@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.10.0 — 2026-10-17
+- Cuarto SRT aportado por usuario: Hablando Huevadas, T10, 655 pistas / 1:21:17.
+- 11 observaciones textuales de conversación con público, escucha, contradicción, dúo, chistes que no se entendieron y callbacks.
+- Nueva guía para separar sketch, stand-up, chiste breve y crowdwork.
+- 21 videos catalogados, 4 con análisis solo de subtítulos, 17 pendientes; ninguno visionado.
+- Pruebas editoriales actualizadas para casos con cantidades distintas de observaciones.
+
+
 ## 0.9.0 — 2026-10-17
 - Tercer SRT aportado por usuario: *Los mejores momentos de El Especial del Humor*, 88 pistas, 11:38, aproximadamente 830 palabras.
 - Ocho observaciones textuales con confianza editorial y tiempos, enfatizando sátira, inversión irónica, discurso solidario exagerado, celos contraproducentes y ventas hiperbólicas.

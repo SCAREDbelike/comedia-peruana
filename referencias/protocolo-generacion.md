@@ -54,8 +54,12 @@
 - Una compilación contiene **escenas independientes**: nunca asumir un solo personaje, situación o causalidad a lo largo de todo el video.
 - Si el SRT es ilegible, no inferir actuaciones, palabras ni desenlaces. **No fingir una comprensión que no se tiene**.
 
+## Chiste corto, público y dúo
+
+Ver [humor conversacional](humor-conversacional.md). Para chiste corto buscar una **contradicción específica** en vez de improvisar un sketch largo; para dúo, que la segunda voz cuestione la lógica; en crowdwork, escuchar antes de responder. No explicar un remate que se debía entender a la primera. La ficha [Hablando Huevadas](../analisis/fichas/hh-papa-peruano-t10.md) es un análisis solo textual, no prueba de espontaneidad ni de reacciones.
+
 ## Evidencia y límites
 
-Las 20 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. Los casos [Marisol y Christian](../analisis/fichas/eh-marisol-christian.md), [Jaime y Cristian](../analisis/fichas/eh-jaime-cristian.md) y [Los mejores momentos](../analisis/fichas/eh-mejores-momentos-3cfl.md) documentan mecanismos desde SRT, pero **no** acreditan actuación, silencios ni reacciones del público. Solo atribuir un gesto, remate o minuto audiovisual a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
+Las 21 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. Los casos [Marisol y Christian](../analisis/fichas/eh-marisol-christian.md), [Jaime y Cristian](../analisis/fichas/eh-jaime-cristian.md), [Los mejores momentos](../analisis/fichas/eh-mejores-momentos-3cfl.md) y [Hablando Huevadas](../analisis/fichas/hh-papa-peruano-t10.md) documentan mecanismos desde SRT, pero **no** acreditan actuación, silencios ni reacciones del público. Solo atribuir un gesto, remate o minuto audiovisual a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
 
 La skill mejora un **proceso de respuesta**, no reentrena el modelo. Sus guías y [casos de evaluación](../tests/casos.md) funcionan como referencias y pruebas editoriales.

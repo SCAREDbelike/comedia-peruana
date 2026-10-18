@@ -1,7 +1,7 @@
 ---
 name: comedia-peruana
 description: Skill general de humor peruano para stand-up, sketches, cómicos ambulantes, improvisación, sátira, creación de personajes, diálogos, anécdotas, juegos de palabras y remates. Actívala para escribir, analizar, mejorar o practicar comedia en cualquier contexto.
-version: 0.9.0
+version: 0.10.0
 ---
 
 # Comedia Peruana
@@ -43,6 +43,9 @@ Ver [referencias/mecanismos-comicos.md](referencias/mecanismos-comicos.md).
 ### Stand-up
 Proponer una opinión particular sobre algo cotidiano, luego 3–5 observaciones cada vez más específicas. Alternar setup → punchline → tag → callback; imaginar ritmo oral y permitir espacios para risas. Evitar escribir párrafos que suenan a conferencia.
 
+### Crowdwork y comedia de dúo
+Los detalles que ofrece una persona pueden ser la premisa. **Escuchar → preguntar → detectar contradicción → reencuadrar → rematar corto**. En un dúo, quien responde agrega información nueva; no solo repite una lisura. Los callbacks recuperan algo que el público conoce. Ver [humor conversacional](referencias/humor-conversacional.md) y [ficha de Hablando Huevadas](analisis/fichas/hh-papa-peruano-t10.md). No suponer improvisación absoluta desde un SRT.
+
 ### Cómicos ambulantes / humor callejero
 Entender la audiencia como parte del ritmo: convocatoria, juego verbal, réplica, estatus improvisado, pausa y remate. Crear escenas con diálogo y espontaneidad **sin humillar espectadores reales**. Usar identidad peruana con sentido, no por acumular jerga.
 
@@ -50,7 +53,7 @@ Entender la audiencia como parte del ritmo: convocatoria, juego verbal, réplica
 Elegir objetivo y falla de cada personaje, definir una única regla cómica y subir sus consecuencias en 3 golpes. Terminar antes de repetir el mismo chiste. Evitar copiar personajes existentes.
 
 ### Improvisación y conversación
-Responder a **lo que acaba de ocurrir**. Buscar una conexión concreta que sorprenda, crear como máximo una o dos frases y detenerse. Si no hay remate, reaccionar genuinamente. No hacer chistes cada cinco segundos.
+Responder a **lo que acaba de ocurrir**. Buscar una conexión concreta que sorprenda, crear como máximo una o dos frases y detenerse. Si no hay remate, reaccionar genuinamente. No hacer chistes cada cinco segundos. **Un chiste corto o respuesta cotidiana no debe volverse un sketch largo por defecto.**
 
 ### Parodia y sátira
 Parodiar las contradicciones del **formato, la situación, las decisiones o el poder**, no asumir que insultar personas equivale a escribir comedia. Los referentes históricos sirven para estudiar estructura; no son voces que se deban clonar.
@@ -96,7 +99,7 @@ Profundizar en [taller de remates, personajes y picardía](referencias/taller-re
 Puntuar 0–5: **claridad, sorpresa, especificidad, naturalidad oral, remate y originalidad**. Reescribir si dos parámetros caen por debajo de 3. La puntuación del modelo es una hipótesis; validar con audiencia humana. Usar [tests/casos.md](tests/casos.md).
 
 ## Evidencia que alimenta el conocimiento de la skill
-El catálogo de enlaces es material de **consulta**, no aprendizaje realizado sobre su contenido. Tres casos, [Marisol y Christian](analisis/fichas/eh-marisol-christian.md), [Jaime y Cristian](analisis/fichas/eh-jaime-cristian.md) y [Los mejores momentos](analisis/fichas/eh-mejores-momentos-3cfl.md), disponen de **análisis textual** con intervalos y ocho observaciones originales cada uno, no de visionado. En recopilaciones, separar escenas independientes y dejar sin clasificar el material ininteligible. Consultar [motor audiovisual](analisis/README.md) para procesar subtítulos locales autorizados, seleccionar intervalos y comprobarlos con visionado. **Un candidato heurístico no es un remate confirmado; una transcripción sola no demuestra actuación o tono.**
+El catálogo de enlaces es material de **consulta**, no aprendizaje realizado sobre su contenido. Tres casos de El Especial del Humor tienen ocho observaciones textuales cada uno; [Hablando Huevadas](analisis/fichas/hh-papa-peruano-t10.md) tiene once observaciones textuales. Ninguno ha sido visionado. En recopilaciones, separar escenas independientes y dejar sin clasificar el material ininteligible. Consultar [motor audiovisual](analisis/README.md) para procesar subtítulos locales autorizados, seleccionar intervalos y comprobarlos con visionado. **Un candidato heurístico no es un remate confirmado; una transcripción sola no demuestra actuación o tono.**
 
 Regla de promoción editorial:
 - **Metadatos**: solo título, enlace, canal y descripción.
@@ -107,7 +110,7 @@ Regla de promoción editorial:
 Los subtítulos automáticos pueden carecer por completo de puntuación y tener bloques consecutivos; no inferir pausas ni tono. Para lenguaje coloquial, consultar [pragmática de lisuras](referencias/pragmatica-lisuras.md). Los ejemplos de dobles sentidos tienen que respetar la intención y relación entre personajes: no reducir la broma a un estereotipo. Una corrección del usuario ayuda a la naturalidad, pero no debe fingirse observación de un video.
 
 ## Estudio de videos
-Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json), la [guía de visionado](videos/guia-de-visionado.md) y el [contexto cultural](referencias/contexto-cultural-y-fuentes.md). Hay **20 enlaces documentados; tres tienen análisis de SRT aportados por el usuario, sin visionado audiovisual**. Separa siempre:
+Consultar [videos/README.md](videos/README.md), [videos/catalogo.json](videos/catalogo.json), la [guía de visionado](videos/guia-de-visionado.md) y el [contexto cultural](referencias/contexto-cultural-y-fuentes.md). Hay **21 enlaces documentados; cuatro tienen análisis de SRT aportados por el usuario, sin visionado audiovisual**. Separa siempre:
 - **Enlace documental verificado**: la fuente publica el enlace, título y contexto.
 - **Video observado**: realmente se examinó el material con momento identificable.
 - **Hipótesis**: técnica que se propone investigar, no prueba de que aparezca en un video.
