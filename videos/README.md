@@ -1,6 +1,6 @@
 # Videoteca de comedia peruana
 
-**18 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
+**19 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
 
 > **Estado al 17 de octubre de 2026:** se verificó que existen referencias públicas indexadas o enlaces publicados en prensa. **No se han visionado íntegramente ni analizado marcas de tiempo**; por tanto, los temas son hipótesis de investigación, no conclusiones del material.
 
@@ -28,6 +28,8 @@
 Guía de trabajo: [cómo ver y documentar los videos](guia-de-visionado.md). **El programa de 2004 añadido incluye índices horarios en la descripción del publicador; no son visionado propio.**
 
 | `eh-marisol-christian` | [Marisol y Christian](https://www.youtube.com/watch?v=dIHkQiriAyw) | enlace y SRT aportados por usuario | **8 observaciones de texto** en [ficha](../analisis/fichas/eh-marisol-christian.md). Falta comprobar actuación, voz y ritmo en video. |
+
+| `eh-jaime-cristian` | [Jaime no puede vivir sin Cristian](https://www.youtube.com/watch?v=4Q3s5twc1a0) | enlace y SRT aportados por el usuario | **8 observaciones textuales** en [ficha](../analisis/fichas/eh-jaime-cristian.md); no se ha comprobado la actuación. |
 
 ## Fuentes externas de contraste
 - [Reportaje de La República con enlaces incrustados](https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor).

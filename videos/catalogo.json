@@ -1,11 +1,11 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "fecha_catalogacion": "2026-10-17",
   "avisos": [
-    "18 enlaces de videos registrados: 17 pendientes de análisis y un caso con subtítulos aportados por el usuario, sin visionado.",
-    "El archivo SRT externo contiene posibles errores de reconocimiento y no permite inferir pausas acústicas o gestos.",
-    "Los comentarios sobre mecanismos de humor provienen únicamente del texto, no del visionado, y se publican como paráfrasis originales.",
-    "No se publica la transcripción ajena completa ni se alojan videos; respetar permisos y derechos."
+    "19 enlaces catalogados, 2 casos con análisis textual desde archivos SRT aportados por el usuario, 17 pendientes de material.",
+    "Ningún video del catálogo se ha marcado como visionado directamente.",
+    "Las observaciones textuales contienen descripciones propias, NO transcripciones completas, gestos ni validaciones de recepción.",
+    "Reconocimiento automático y subtítulos contiguos pueden distorsionar palabras, pausas y atribución de voces."
   ],
   "videos": [
     {
@@ -353,6 +353,30 @@
       "estado_observacion": "pendiente_de_visionado_directo",
       "estado_analisis": "transcripcion_analizada_sin_visionado",
       "ficha_analisis": "analisis/fichas/eh-marisol-christian.md",
+      "transcripcion_incluida": false,
+      "material_descargado": false
+    },
+    {
+      "id": "eh-jaime-cristian",
+      "obra": "El Especial del Humor",
+      "titulo": "Jaime no puede vivir sin Cristian (título de SRT aportado por usuario)",
+      "url": "https://www.youtube.com/watch?v=4Q3s5twc1a0",
+      "publicador": "no_verificado",
+      "fuente": "https://www.youtube.com/watch?v=4Q3s5twc1a0",
+      "origen": "enlace_y_subtitulos_aportados_usuario",
+      "fecha_publicacion": null,
+      "tema": [
+        "malentendido_espacial",
+        "doble_sentido_contextual",
+        "objetivos_opuestos",
+        "melodrama_parodico",
+        "callback_del_objeto",
+        "pseudociencia_parodica"
+      ],
+      "objetivo_estudio": "Comparar malentendidos de posición, objetivos contrapuestos, hipérbole sentimental y callback nocturno a partir de un SRT. Corroborar con audiovisual.",
+      "estado_observacion": "pendiente_de_visionado_directo",
+      "estado_analisis": "transcripcion_analizada_sin_visionado",
+      "ficha_analisis": "analisis/fichas/eh-jaime-cristian.md",
       "transcripcion_incluida": false,
       "material_descargado": false
     }

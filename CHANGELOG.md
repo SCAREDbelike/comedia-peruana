@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.8.0 — 2026-10-17
+- Segundo sketch con archivo SRT aportado por el usuario: *Jaime no puede vivir sin Cristian*, 86 bloques, 12:27, aproximadamente 1159 palabras.
+- Ocho observaciones textuales sobre objetivos contrapuestos, malentendido espacial, insinuación sostenida, melodrama paródico y callback de objeto.
+- Catálogo actualizado a **19 enlaces**, 2 con análisis textual y 17 pendientes; ningún video marcado como visionado.
+- La ficha distingue metáfora y doble sentido de estereotipos; no publica subtítulos completos ni atribuye gestos, silencios o risas no comprobados.
+- Prueba editorial de consistencia del catálogo, estado y dos fichas basadas en subtítulos.
+
+
 ## 0.7.0 — 2026-10-17
 - Primer SRT real aportado por usuario: *El Especial del Humor, Marisol y Christian*, 147 bloques hasta 19:20.
 - Ocho observaciones textuales con intervalos, evidencias numeradas, mecanismos propuestos y limitaciones. **No se considera visionado.**

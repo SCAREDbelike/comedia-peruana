@@ -1,0 +1,121 @@
+{
+  "version": "0.8.0",
+  "id": "eh-jaime-cristian",
+  "url": "https://www.youtube.com/watch?v=4Q3s5twc1a0",
+  "medio": "archivo_srt_aportado_por_usuario",
+  "estado": "transcripcion_analizada_sin_visionado",
+  "analisis_realizado": "lectura_del_srt_y_parafrasis_original",
+  "datos_archivo": {
+    "bloques_subtitulos": 86,
+    "inicio": "00:00:00",
+    "duracion_hasta": "00:12:27",
+    "palabras_aproximadas": 1159,
+    "intervalos_con_huecos_positivos": 0,
+    "etiquetas_textuales": {
+      "Aplausos": 1,
+      "Música": 3,
+      "Risas": 1
+    },
+    "notas": [
+      "El reconocimiento automático deforma expresiones, no asigna claramente hablantes y tiene puntuación incompleta.",
+      "La falta de huecos entre bloques no permite inferir silencios reales.",
+      "Las etiquetas entre corchetes no prueban aplausos, música ni risas audibles."
+    ]
+  },
+  "segmentos": [
+    {
+      "id": "01",
+      "inicio": "00:00:00",
+      "fin": "00:01:59",
+      "cues": "1-13",
+      "mecanismo": "hospitalidad_excesiva_y_fijacion_del_personaje",
+      "descripcion": "El anfitrión multiplica ofertas de alojamiento, comida y compañía. El texto menciona fotografías repetidas y una preocupación por prepararse ante la llegada del invitado.",
+      "interpretacion": "La insistencia convierte una cortesía cotidiana en la señal de un deseo desproporcionado; el personaje parece no advertir su propio exceso.",
+      "grado_confianza_textual": "media",
+      "por_ver": "Confirmar distribución de fotos y presencia física; el SRT no permite verlas."
+    },
+    {
+      "id": "02",
+      "inicio": "00:01:59",
+      "fin": "00:03:38",
+      "cues": "14-23",
+      "mecanismo": "objetivos_desalineados_y_escalada_de_insinuaciones",
+      "descripcion": "Aparece un invitado que busca un lugar donde pasar la noche; el anfitrión reinterpreta la cercanía y propone extender la velada, mientras el otro personaje intenta poner límites.",
+      "interpretacion": "La escena mantiene una asimetría estable: uno quiere descanso y hospitalidad normal, el otro busca intimidad. Esa desigualdad da continuidad a los malentendidos.",
+      "grado_confianza_textual": "media",
+      "por_ver": "Distinguir intención verdadera de actuación paródica; varias frases están mal reconocidas."
+    },
+    {
+      "id": "03",
+      "inicio": "00:03:38",
+      "fin": "00:04:39",
+      "cues": "24-32",
+      "mecanismo": "reencuadre_literal_de_posicion_espacial",
+      "descripcion": "Ante la petición de dormir, una frase sobre quién va debajo o encima produce un equívoco; se ofrece después una explicación sobre pisos y sótano. Aparece una etiqueta textual de aplausos.",
+      "interpretacion": "Un concepto espacial admite dos interpretaciones distintas: ubicación en una vivienda y posición entre personas. La explicación posterior pretende desactivar la sospecha.",
+      "grado_confianza_textual": "alta_para_doble_lectura",
+      "por_ver": "La indicación [Aplausos] es un texto del subtítulo; no equivale a evidencia auditiva de la reacción."
+    },
+    {
+      "id": "04",
+      "inicio": "00:04:39",
+      "fin": "00:05:49",
+      "cues": "33-40",
+      "mecanismo": "doble_sentido_por_roles_y_objetos_de_juego",
+      "descripcion": "Se propone jugar y aparecen elementos del golf con roles repartidos entre ambos personajes. El mismo campo semántico permite insinuaciones sin cambiar de situación.",
+      "interpretacion": "El doble sentido se construye con elementos relacionados entre sí, no mediante una lisura suelta. La coherencia de la metáfora mantiene la escena.",
+      "grado_confianza_textual": "alta_para_tema_general",
+      "por_ver": "Confirmar las palabras exactas: el SRT de reconocimiento automático deforma nombres y sustantivos."
+    },
+    {
+      "id": "05",
+      "inicio": "00:05:49",
+      "fin": "00:07:53",
+      "cues": "41-57",
+      "mecanismo": "rechazo_y_melodrama_desproporcionado",
+      "descripcion": "Uno plantea que solamente desea amistad; el otro lleva el intercambio a una reacción dramática de despedida. El SRT contiene etiquetas [Música] y [Risas].",
+      "interpretacion": "Una conversación íntima relativamente cotidiana se eleva a drama sentimental. El contraste de intensidad es el mecanismo, más allá de la identidad de los personajes.",
+      "grado_confianza_textual": "media",
+      "por_ver": "No atribuir música efectiva, llanto, tono actoral o risa del público sin acceder al audiovisual."
+    },
+    {
+      "id": "06",
+      "inicio": "00:07:53",
+      "fin": "00:09:43",
+      "cues": "58-68",
+      "mecanismo": "reversión_de_decision_y_negociacion_de_espacio",
+      "descripcion": "Después de la despedida, el diálogo vuelve a la posibilidad de dormir en el mismo lugar. El invitado muestra reservas mientras se trata la situación como si fuera perfectamente normal; aparece el problema del insomnio.",
+      "interpretacion": "La vuelta atrás contradice el dramatismo previo y reactiva la tensión central. La insistencia contrasta con el intento de poner límites.",
+      "grado_confianza_textual": "media",
+      "por_ver": "Los gestos, distancias y límites negociados no se pueden reconstruir solo desde los subtítulos."
+    },
+    {
+      "id": "07",
+      "inicio": "00:09:43",
+      "fin": "00:11:16",
+      "cues": "69-78",
+      "mecanismo": "solucion_absurda_y_pseudociencia_con_doble_lectura",
+      "descripcion": "Un personaje propone agarrar un plátano para dormir y ofrece una explicación supuestamente fisiológica. La propuesta se repite y se incorpora a la escena nocturna.",
+      "interpretacion": "La justificación pseudocientífica mantiene un tono de normalidad mientras prepara un objeto cuya interpretación puede variar. La repetición planta el detalle para retomarlo.",
+      "grado_confianza_textual": "alta_para_objeto_y_explicacion",
+      "por_ver": "No atribuir al audio una entonación seria o insinuante concreta sin verlo y escucharlo."
+    },
+    {
+      "id": "08",
+      "inicio": "00:11:16",
+      "fin": "00:12:27",
+      "cues": "79-86",
+      "mecanismo": "callback_y_reinterpretacion_del_objeto",
+      "descripcion": "A la mañana siguiente vuelve la historia del plátano y surge una pregunta por lo que realmente estuvo agarrando el personaje. El SRT termina con una negación breve y deja partes del desenlace poco claras.",
+      "interpretacion": "Un objeto plantado durante la preparación nocturna se recupera como cierre: la duda sobre su identidad permite reinterpretar la escena anterior.",
+      "grado_confianza_textual": "media",
+      "por_ver": "Verificar el objeto y la acción visual exacta antes de afirmar cuál fue el remate real."
+    }
+  ],
+  "limites": [
+    "No se ha visionado ni escuchado el video directamente.",
+    "Las hipótesis de doble sentido se infieren desde palabras ambiguas; requieren cotejo con video.",
+    "No se publica la transcripción íntegra de terceros.",
+    "El análisis separa estructura cómica de estereotipos sobre identidades o transgresiones de límites."
+  ]
+}

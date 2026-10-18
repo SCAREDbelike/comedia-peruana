@@ -37,8 +37,16 @@
 - **Sin personalidad:** dar a uno una aspiración ridícula que toma en serio y al otro una necesidad urgente.
 - **Remate débil:** escribir tres finales nuevos con distinta causalidad, escoger uno y borrar las explicaciones.
 
+## Aplicación de las dos primeras fichas textuales
+
+- Contradicción en la conducta y relatos interesados: revisar la ficha de Marisol y Christian.
+- Para doble sentido contextual: partir de **dos lecturas plausibles de un objeto, verbo o posición**; no acumular insinuaciones sin progresión dramática.
+- Para preparar un callback: plantar un objeto con una función inocente, recuperarlo en otra situación y revelar un segundo sentido que sea coherente.
+- Para asimetría cómica: un personaje busca algo preciso, el segundo interpreta cada señal según su deseo; el contraste debe producir decisiones, no insultos o estereotipos por sí solos.
+- Estas herramientas son **generalizaciones editoriales de análisis textual**, no hallazgos audiovisuales validados. Crear escenas nuevas con otros personajes y otro tema.
+
 ## Evidencia y límites
 
-Las 18 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. El [caso Marisol y Christian](../analisis/fichas/eh-marisol-christian.md) documenta hipótesis sobre diálogos a partir de un SRT, pero **no** acredita actuación, silencios ni reacciones del público. Solo atribuir un gesto, remate o minuto audiovisual a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
+Las 19 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. Los casos [Marisol y Christian](../analisis/fichas/eh-marisol-christian.md) y [Jaime y Cristian](../analisis/fichas/eh-jaime-cristian.md) documentan mecanismos desde SRT, pero **no** acreditan actuación, silencios ni reacciones del público. Solo atribuir un gesto, remate o minuto audiovisual a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
 
 La skill mejora un **proceso de respuesta**, no reentrena el modelo. Sus guías y [casos de evaluación](../tests/casos.md) funcionan como referencias y pruebas editoriales.

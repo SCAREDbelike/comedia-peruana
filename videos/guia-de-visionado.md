@@ -1,4 +1,4 @@
-# Ruta para estudiar 18 videos sin inventar escenas
+# Ruta para estudiar 19 videos sin inventar escenas
 
 **Estado 17-10-2026:** enlaces y metadatos documentados; ninguna de estas fichas afirma visionado directo. Las preguntas son hipótesis para cuando el lector vea las escenas.
 
@@ -11,6 +11,10 @@
 ### Nuevo caso textual: Marisol y Christian
 
 - [Video](https://www.youtube.com/watch?v=dIHkQiriAyw) y [análisis solo de subtítulos](../analisis/fichas/eh-marisol-christian.md). Se han anotado ocho intervalos desde un SRT **sin puntuación ni huecos temporales**, por lo que quedan pendientes la entonación, los gestos y las pausas. No confundir una anotación textual con visionado.
+
+### Caso textual: Jaime no puede vivir sin Cristian
+
+- [Video](https://www.youtube.com/watch?v=4Q3s5twc1a0) y [análisis solo de SRT](../analisis/fichas/eh-jaime-cristian.md). Hay 86 bloques contiguos en 12:27; se registraron ocho hipótesis de técnica. Es especialmente útil contrastar la ambigüedad de posiciones (03:38–04:39) y el callback de un objeto (09:43–12:27). **Faltan audio, actuación y verificación visual.**
 
 ## Bloque B. Comedia ambulante
 

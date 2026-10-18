@@ -1,8 +1,8 @@
-# Motor de investigación audiovisual de Comedia Peruana (v0.7.0)
+# Motor de investigación audiovisual de Comedia Peruana (v0.8.0)
 
 ## Qué existe y qué no existe todavía
 
-- **18 videos catalogados**: por ahora enlaces y metadatos. Uno cuenta con análisis textual de subtítulos; **ninguno se marca como visionado**.
+- **19 videos catalogados**: por ahora enlaces y metadatos. Dos cuentan con análisis textual de subtítulos; **ninguno se marca como visionado**.
 - **Transcripción opcional local**: `scripts/transcribir_audio.py` convierte un archivo audiovisual propio o autorizado en SRT con Faster Whisper. La transcripción automática puede confundir voces, acentos y lisuras.
 - **Análisis temporal local**: `scripts/analizar_subtitulos.py` extrae pistas SRT/VTT con marcas de tiempo y propone fragmentos para revisar. **No detecta remates ni risas con certeza**, y no ve gestos, pausas acústicas ni actuaciones.
 - **Conocimiento público editorial**: se publica solo una ficha breve con conclusiones comprobadas y redactadas en palabras propias; nunca transcripciones completas, audio ni videos de terceros.
@@ -61,12 +61,19 @@ Se puede trabajar solo con subtítulos sin el video, pero el estado es `transcri
 - Un fragmento marcado con `[Aplausos]` en SRT no equivale a una reacción comprobada; la voz, las identidades hablantes y el ritmo requieren visionado.
 - La anotación contiene **paráfrasis originales**, no el SRT de terceros.
 
+## Segundo caso con archivo SRT real (2026-10-17)
+
+- [Jaime no puede vivir sin Cristian](fichas/eh-jaime-cristian.md): **86 bloques / 12:27**, ocho observaciones textuales [en JSON](observaciones/eh-jaime-cristian.json).
+- Permite comparar con el caso anterior cómo un doble sentido puede mantenerse durante una escena y cómo un objeto se planta y regresa al cierre.
+- El SRT es contiguo, con expresiones reconocidas erróneamente y un número reducido de marcas como `[Risas]`; estas etiquetas no prueban reacciones.
+- **No se han comprobado audios, gestos, objetos físicos ni ritmo escénico.** Las fichas son análisis textuales, no visionados.
+
 ## Primeros dos casos priorizados
 
 - [Las viejas pitucas de La Molina #01](fichas/eh-molina-01.md): estudio de personajes, estatus y registros.
 - [Chino Risas Vol.1](fichas/ca-chino-vol1.md): interacción, pausas y remates en comedia de plaza.
 
-Ambas fichas son **protocolos de análisis pendientes**, NO hallazgos de escenas vistas. Tampoco es una escena vista el caso de Marisol y Christian: sus observaciones provienen solamente del subtítulo.
+Ambas fichas son **protocolos de análisis pendientes**, NO hallazgos de escenas vistas. Tampoco son escenas vistas los casos de Marisol y Christian y Jaime y Cristian: sus observaciones provienen solamente de subtítulos.
 
 ## Fuentes y acceso
 

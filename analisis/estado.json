@@ -1,7 +1,7 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "actualizado": "2026-10-17",
-  "descripcion": "Cola editorial; no constituye evidencia de análisis audiovisual.",
+  "descripcion": "Seguimiento editorial de 19 referencias: 2 con análisis textual de subtítulos, ninguna visionada.",
   "videos": [
     {
       "id": "eh-2004-programa",
@@ -150,6 +150,18 @@
       "fuente": "srt_aportado_usuario",
       "ficha": "analisis/fichas/eh-marisol-christian.md",
       "nota": "Se hizo análisis textual manual; falta revisión audiovisual."
+    },
+    {
+      "id": "eh-jaime-cristian",
+      "url": "https://www.youtube.com/watch?v=4Q3s5twc1a0",
+      "estado": "transcripcion_analizada_sin_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "segmentos_textuales_anotados": 8,
+      "prioridad": "alta",
+      "fuente": "srt_aportado_usuario",
+      "ficha": "analisis/fichas/eh-jaime-cristian.md",
+      "nota": "Lectura textual de 86 cues, 12:27, sin visionado; gestos y tono pendientes."
     }
   ]
 }
