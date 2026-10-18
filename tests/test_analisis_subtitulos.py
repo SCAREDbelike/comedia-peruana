@@ -65,6 +65,24 @@ class TestsAnalisis(unittest.TestCase):
         self.assertEqual(analisis["revision"], "pendiente_de_revision_humana")
         self.assertTrue(all("vista_previa_local" not in c for c in analisis["candidatos"]))
 
+    def test_subtitulos_automaticos_sin_puntuacion(self):
+        muestra = """1
+00:00:00,000 --> 00:00:08,000
+yo no voy a hablar de esto pero pero quiero aclararlo
+
+2
+00:00:08,000 --> 00:00:16,000
+la verdad me pregunta qué paso entonces no no respondo
+"""
+        analisis = analizar(muestra, "eh-molina-01", CATALOGO)
+        self.assertTrue(analisis["pistas_contiguas"])
+        self.assertEqual(analisis["huecos_temporales_positivos"], 0)
+        etiquetas = {e for c in analisis["candidatos"] for e in c["indicios"]}
+        self.assertIn("marcador_textual_de_contraste_o_negacion", etiquetas)
+        self.assertIn("repeticion_lexica_en_subtitulos", etiquetas)
+        self.assertIn("palabra_interrogativa_sin_puntuacion", etiquetas)
+        self.assertTrue(all(c["mecanismo_comico_confirmado"] is False for c in analisis["candidatos"]))
+
     def test_rechaza_video_desconocido(self):
         with self.assertRaisesRegex(ValueError, "no existe"):
             analizar(SRT, "no-existe", CATALOGO)

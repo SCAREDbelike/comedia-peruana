@@ -39,6 +39,6 @@
 
 ## Evidencia y límites
 
-Las 17 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. Solo atribuir un gesto, remate o minuto a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
+Las 18 entradas de [videoteca](../videos/catalogo.json) son enlaces de estudio; no se ha acreditado su visionado. El [caso Marisol y Christian](../analisis/fichas/eh-marisol-christian.md) documenta hipótesis sobre diálogos a partir de un SRT, pero **no** acredita actuación, silencios ni reacciones del público. Solo atribuir un gesto, remate o minuto audiovisual a una escena vista de verdad y documentada; nunca fingir visionados, reacciones de público, transcripciones ni pruebas humanas. Ninguna puntuación del propio agente equivale a validación en directo.
 
 La skill mejora un **proceso de respuesta**, no reentrena el modelo. Sus guías y [casos de evaluación](../tests/casos.md) funcionan como referencias y pruebas editoriales.

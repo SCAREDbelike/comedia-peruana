@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## 0.7.0 — 2026-10-17
+- Primer SRT real aportado por usuario: *El Especial del Humor, Marisol y Christian*, 147 bloques hasta 19:20.
+- Ocho observaciones textuales con intervalos, evidencias numeradas, mecanismos propuestos y limitaciones. **No se considera visionado.**
+- Nuevo elemento del catálogo: **18 videos**; uno con análisis textual y 17 aún sin material.
+- Analizador preparado para subtítulos continuos sin signos, con etiquetas de contraste o repetición como pistas, no como diagnóstico de humor.
+- Nuevos tests del análisis heurístico de subtítulos sin puntuación.
+- Sin subir subtítulos completos ajenos al repositorio. Las observaciones evitan reproducir violencia y estereotipos de la obra.
+
+
 ## 0.6.0 — 2026-10-17
 - Implementación de un **motor local de análisis de subtítulos** SRT/VTT para generar candidatos temporales, con señales y límites explícitos.
 - Nuevo transcriptor opcional de medios locales autorizados con Faster Whisper.

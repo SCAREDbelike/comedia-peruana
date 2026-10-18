@@ -1,6 +1,6 @@
 # Videoteca de comedia peruana
 
-**17 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
+**18 videos referenciados**, con URLs concretas y procedencia. Este directorio **no aloja videos ni transcripciones ajenas**.
 
 > **Estado al 17 de octubre de 2026:** se verificó que existen referencias públicas indexadas o enlaces publicados en prensa. **No se han visionado íntegramente ni analizado marcas de tiempo**; por tanto, los temas son hipótesis de investigación, no conclusiones del material.
 
@@ -26,6 +26,8 @@
 | `ca-marcianitos-vol2` | [Los Marcianitos de la Risa Vol.2 - Show completo en Chabuca Granda](https://www.youtube.com/watch?v=zYLHaM6zrho) | ficha de YouTube indexada | Identificar mediante visionado si el ritmo depende de actuación, pausas o respuesta colectiva. |
 
 Guía de trabajo: [cómo ver y documentar los videos](guia-de-visionado.md). **El programa de 2004 añadido incluye índices horarios en la descripción del publicador; no son visionado propio.**
+
+| `eh-marisol-christian` | [Marisol y Christian](https://www.youtube.com/watch?v=dIHkQiriAyw) | enlace y SRT aportados por usuario | **8 observaciones de texto** en [ficha](../analisis/fichas/eh-marisol-christian.md). Falta comprobar actuación, voz y ritmo en video. |
 
 ## Fuentes externas de contraste
 - [Reportaje de La República con enlaces incrustados](https://larepublica.pe/cine-series/streaming/2022/09/04/carlos-alvarez-y-jorge-benavides-5-sketches-inolvidables-del-bromance-de-la-tv-peruana-en-el-especial-del-humor).

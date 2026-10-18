@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0",
+  "version": "0.7.0",
   "actualizado": "2026-10-17",
   "descripcion": "Cola editorial; no constituye evidencia de análisis audiovisual.",
   "videos": [
@@ -138,6 +138,18 @@
       "candidatos_generados": 0,
       "segmentos_validados": 0,
       "prioridad": "normal"
+    },
+    {
+      "id": "eh-marisol-christian",
+      "url": "https://www.youtube.com/watch?v=dIHkQiriAyw",
+      "estado": "transcripcion_analizada_sin_visionado",
+      "candidatos_generados": 0,
+      "segmentos_validados": 0,
+      "segmentos_textuales_anotados": 8,
+      "prioridad": "alta",
+      "fuente": "srt_aportado_usuario",
+      "ficha": "analisis/fichas/eh-marisol-christian.md",
+      "nota": "Se hizo análisis textual manual; falta revisión audiovisual."
     }
   ]
 }

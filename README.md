@@ -1,4 +1,4 @@
-# Comedia Peruana — Laboratorio abierto de humor (v0.6.0)
+# Comedia Peruana — Laboratorio abierto de humor (v0.7.0)
 
 **Skill de escritura, análisis e improvisación humorística con identidad peruana.** Investiga las técnicas de los **cómicos ambulantes**, el humor de barrio, los sketches televisivos (como *El Especial del Humor*), el **stand-up**, la sátira cotidiana, los diálogos cómicos y la creación de personajes.
 
@@ -12,12 +12,12 @@
 | --- | --- |
 | [SKILL.md](SKILL.md) | Instrucciones principales, mecanismos cómicos, improvisación y formatos |
 | [analisis/README.md](analisis/README.md) | **Motor de subtítulos y revisión audiovisual** con pasos ejecutables |
-| [analisis/estado.json](analisis/estado.json) | Estado de evidencia de los 17 videos, sin marcar ninguno como visto |
+| [analisis/estado.json](analisis/estado.json) | Estado de 18 referencias, una estudiada desde SRT, ninguna visionada |
 | [scripts/analizar_subtitulos.py](scripts/analizar_subtitulos.py) | Candidatos temporales de pausas, preguntas, reacciones descritas y registros |
 | [scripts/transcribir_audio.py](scripts/transcribir_audio.py) | Transcripción local opcional de medios autorizados con Faster Whisper |
 | [referencias/pragmatica-lisuras.md](referencias/pragmatica-lisuras.md) | Uso contextual de lisuras, sin convertirlas en el remate |
 | [videos/README.md](videos/README.md) | **Videoteca con enlaces reales**, procedencia y estados de verificación |
-| [videos/catalogo.json](videos/catalogo.json) | Catálogo estructurado con **17 enlaces** y estados de verificación |
+| [videos/catalogo.json](videos/catalogo.json) | Catálogo estructurado con **18 enlaces** y estados de verificación |
 | [videos/guia-de-visionado.md](videos/guia-de-visionado.md) | Ruta de estudio de programas, sketches y shows callejeros |
 | [referencias/taller-remates-personajes.md](referencias/taller-remates-personajes.md) | Remates, picardía, doble sentido, personajes y actuación |
 | [referencias/contexto-cultural-y-fuentes.md](referencias/contexto-cultural-y-fuentes.md) | Fuentes académicas y periodísticas; Víctor Vich |
@@ -32,7 +32,7 @@
 
 ## Referencias iniciales
 
-La videoteca reúne **17 referencias enlazadas**, entre ellas:
+La videoteca reúne **18 referencias enlazadas**, entre ellas:
 - *El Especial del Humor*: dos programas de 2004, «Las viejas pitucas de La Molina» y «El Diván con Karla Casos» en dos partes.
 - Otros sketches referenciados por una nota periodística (estos enlaces **no se han comprobado mediante visionado**).
 - *Los Reyes de la Risa Vol. 2*, El Chino Risas, Los Herederos de la Risa y Los Marcianitos.
@@ -47,7 +47,7 @@ Al activarla, el asistente emplea las referencias y el [protocolo de generación
 
 ## Investigación audiovisual (nuevo en v0.6)
 
-La videoteca sigue teniendo 17 enlaces, pero ahora hay un motor que **procesa SRT/VTT locales** y genera candidatos con marcas temporales para revisión. Opcionalmente se puede transcribir un archivo audiovisual obtenido legítimamente con Faster Whisper. No se descargan videos de YouTube automáticamente, no se guardan transcripciones completas en GitHub ni se finge visionado.
+La videoteca tiene 18 enlaces y ahora hay un motor que **procesa SRT/VTT locales** y genera candidatos con marcas temporales para revisión. Opcionalmente se puede transcribir un archivo audiovisual obtenido legítimamente con Faster Whisper. No se descargan videos de YouTube automáticamente, no se guardan transcripciones completas en GitHub ni se finge visionado.
 
 ```bash
 # Si tienes subtítulos autorizados
@@ -55,7 +55,11 @@ python scripts/analizar_subtitulos.py --video-id eh-molina-01 --subtitulos trans
 # Salida local ignorada por Git: analisis-locales/eh-molina-01.json
 ```
 
-Guía: [analisis/README.md](analisis/README.md). Prioridad editorial inicial: *Las viejas pitucas de La Molina #01* y *El Chino Risas Vol.1*. Las fichas iniciales son **hipótesis** y no hallazgos comprobados.
+Guía: [analisis/README.md](analisis/README.md). Prioridad editorial inicial: *Las viejas pitucas de La Molina #01* y *El Chino Risas Vol.1*. Las dos fichas iniciales son **hipótesis**. La [ficha de Marisol y Christian](analisis/fichas/eh-marisol-christian.md) contiene ocho observaciones **solo textuales** de un SRT suministrado, todavía sin visionado.
+
+### Primer análisis con subtítulos reales
+
+[El Especial del Humor: Marisol y Christian](analisis/fichas/eh-marisol-christian.md) ofrece **8 observaciones textuales con rangos de tiempo** y reglas cómicas originales derivadas: malentendidos que escalan, personaje que se contradice, metahumor televisivo, dobles sentidos y cierre que cambia de marco. La lectura se basa exclusivamente en un SRT aportado por el usuario, con reconocimiento imperfecto; no se ha visto el video, ni se ha subido el SRT a GitHub.
 
 ## Uso rápido
 

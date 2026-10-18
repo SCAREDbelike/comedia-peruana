@@ -1,4 +1,4 @@
-# Ruta para estudiar 17 videos sin inventar escenas
+# Ruta para estudiar 18 videos sin inventar escenas
 
 **Estado 17-10-2026:** enlaces y metadatos documentados; ninguna de estas fichas afirma visionado directo. Las preguntas son hipótesis para cuando el lector vea las escenas.
 
@@ -7,6 +7,10 @@
 - [Programa completo, 03-04-2004](https://www.youtube.com/watch?v=8GLaSsqgUfk). El índice **publicado por el canal**, no comprobado por observación propia, indica: 00:10 escena de apertura, 19:55 «Mascaly / Luis Miguel», 43:36 «Choledo, Elian y remodelación de palacio». Elegir dos segmentos y comparar quién desea qué.
 - [El Diván con Karla Casos 1/2](https://www.youtube.com/watch?v=O7yq7_9PRAg) y [2/2](https://www.youtube.com/watch?v=ZwHRyBK9SuA). Buscar, si existe, contraste entre lenguaje académico y doble sentido.
 - [Las pitucas de La Molina #01](https://www.youtube.com/watch?v=CSHVcaZ6Os0) y [#03](https://www.youtube.com/watch?v=3khcVkxc5v0). Identificar, tras verlas, repetición con variación y distribución de poder.
+
+### Nuevo caso textual: Marisol y Christian
+
+- [Video](https://www.youtube.com/watch?v=dIHkQiriAyw) y [análisis solo de subtítulos](../analisis/fichas/eh-marisol-christian.md). Se han anotado ocho intervalos desde un SRT **sin puntuación ni huecos temporales**, por lo que quedan pendientes la entonación, los gestos y las pausas. No confundir una anotación textual con visionado.
 
 ## Bloque B. Comedia ambulante
 

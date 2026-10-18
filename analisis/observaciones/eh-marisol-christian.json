@@ -1,0 +1,107 @@
+{
+  "version": "0.7.0",
+  "id": "eh-marisol-christian",
+  "url": "https://www.youtube.com/watch?v=dIHkQiriAyw",
+  "medio": "subtitulos_srt_aportados_por_usuario_en_esta_conversacion",
+  "estado": "transcripcion_analizada_sin_visionado",
+  "analisis_realizado": "lectura_manual_del_srt_y_parafrasis_original",
+  "datos_archivo": {
+    "bloques_subtitulos": 147,
+    "duracion_hasta": "00:19:20",
+    "palabras_aproximadas": 2560,
+    "intervalos_con_huecos_positivos": 0,
+    "notas": [
+      "Pistas consecutivas: no permiten medir pausas de actores.",
+      "Transcripción con omisión de signos de puntuación, confusión de nombres, términos y hablantes.",
+      "Contiene 3 bloques etiquetados [Aplausos] y 5 [Música], lo que no prueba auditivamente una reacción."
+    ]
+  },
+  "segmentos": [
+    {
+      "id": "01",
+      "inicio": "00:00:26",
+      "fin": "00:02:12",
+      "cues": "4-16",
+      "mecanismo": "equivocos_y_desviacion_tematica",
+      "descripcion": "La presentadora anuncia un tema de interés público; su interlocutor propone sucesivamente asuntos distintos y personales hasta que la entrevista aterriza en una separación. La repetición aumenta la impaciencia de la presentadora.",
+      "que_evaluar": "Cómo cada interpretación errónea tiene lógica propia y agota la paciencia del personaje contrario.",
+      "certeza_textual": "alta"
+    },
+    {
+      "id": "02",
+      "inicio": "00:02:56",
+      "fin": "00:04:30",
+      "cues": "23-35",
+      "mecanismo": "contradiccion_recurrente_y_satira_mediatica",
+      "descripcion": "La invitada afirma que no hablará de su vida privada a la vez que agrega detalles; la presentadora insiste en pedir emoción porque le serviría para conseguir audiencia. El conflicto se sostiene por contradicción entre declaración y conducta.",
+      "que_evaluar": "Técnica de personaje que niega exactamente lo que está demostrando y de entrevistador con interés oculto.",
+      "certeza_textual": "alta"
+    },
+    {
+      "id": "03",
+      "inicio": "00:04:37",
+      "fin": "00:05:27",
+      "cues": "36-42",
+      "mecanismo": "doble_lectura_literal_en_escena_de_violencia",
+      "descripcion": "Una conversación sobre maquillaje y un ojo oscuro cambia de marco mediante la expresión de doble sentido; el contexto relatado incluye violencia de pareja.",
+      "que_evaluar": "Distinguir giro semántico de la violencia usada como fuente de comicidad; diseñar mecanismos similares con conflictos no abusivos.",
+      "certeza_textual": "media"
+    },
+    {
+      "id": "04",
+      "inicio": "00:07:50",
+      "fin": "00:09:51",
+      "cues": "61-75",
+      "mecanismo": "polisemia_del_dedo_y_documento",
+      "descripcion": "La entrevista hace referencia a una lesión en un dedo; en otro segmento se usa una autorización y la huella digital como motivo narrativo para otro equívoco. La transcripción no permite reconstruir todos los gestos.",
+      "que_evaluar": "Cómo un objeto mencionado reaparece con una función diferente en el diálogo.",
+      "certeza_textual": "media"
+    },
+    {
+      "id": "05",
+      "inicio": "00:11:55",
+      "fin": "00:13:07",
+      "cues": "92-99",
+      "mecanismo": "literalismo_que_elude_la_promesa",
+      "descripcion": "Una negación enfática construida alrededor de un único dedo termina reinterpretándose para aludir al conjunto de dedos; ocurre dentro de un contexto de violencia que no se debe replicar.",
+      "que_evaluar": "La distancia entre cumplir literalmente una frase y traicionar su intención; reutilizar con apuestas inocuas.",
+      "certeza_textual": "alta"
+    },
+    {
+      "id": "06",
+      "inicio": "00:13:07",
+      "fin": "00:15:22",
+      "cues": "100-115",
+      "mecanismo": "objeto_disparador_y_sentido_doble",
+      "descripcion": "El relato alterna una discusión sobre ropa y una plancha con el retorno a la entrevista; el obsequio de ese objeto desencadena otra reacción verbal asociada al conflicto.",
+      "que_evaluar": "Cómo se planta un objeto para que reaparezca con otro significado. La actuación y el tipo exacto de transición necesitan video.",
+      "certeza_textual": "media"
+    },
+    {
+      "id": "07",
+      "inicio": "00:17:28",
+      "fin": "00:18:52",
+      "cues": "132-142",
+      "mecanismo": "version_interesada_contradicha_por_escena_relatada",
+      "descripcion": "Una invitada se presenta como quien decidió dejar la relación, mientras otro pasaje textual dramatiza una separación narrada de manera diferente.",
+      "que_evaluar": "Narrador poco fiable y contradicción entre lo que alguien cuenta y lo que una escena muestra o sugiere.",
+      "certeza_textual": "media"
+    },
+    {
+      "id": "08",
+      "inicio": "00:18:52",
+      "fin": "00:19:20",
+      "cues": "143-147",
+      "mecanismo": "giro_de_cierre_por_aparicion_de_tercero",
+      "descripcion": "El cierre introduce un tercer personaje con una revelación que cambia el marco de la relación. Hay hipérbole sexual y estereotipos de época; estudiar el cambio de marco sin reproducir caricaturas dañinas.",
+      "que_evaluar": "La coda agrega información sorpresiva, pero su efecto escénico y recepción no se pueden inferir del SRT.",
+      "certeza_textual": "media"
+    }
+  ],
+  "limites": [
+    "No se ha visto ni escuchado el video de forma directa.",
+    "El SRT puede contener errores y no identifica hablantes con fiabilidad.",
+    "No se publican diálogos completos, transcripciones ni escenas reproducidas literalmente.",
+    "Parte de la sátira original usa violencia doméstica y estereotipos; estudiar la estructura no equivale a respaldarlos."
+  ]
+}

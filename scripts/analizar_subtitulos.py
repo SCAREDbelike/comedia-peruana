@@ -19,6 +19,12 @@ LISURAS = re.compile(
     r"\b(?:chucha|carajo|mierda|huev[oó]n(?:a|es|as)?|cojudo(?:s|as)?|puta(?:s)?)\b",
     re.IGNORECASE
 )
+CONTRASTE = re.compile(
+    r"\\b(?:pero|entonces|si supieran|la verdad|no voy a hablar|no voy a decir|jam[aá]s|nunca)\\b",
+    re.IGNORECASE
+)
+REPETICION = re.compile(r"\\b([a-záéíóúñ]{2,})\\s+\\1\\b", re.IGNORECASE)
+INTERROGATIVO = re.compile(r"\\b(?:qué|cómo|cuál|quién|dónde|para qué|por qué)\\b", re.IGNORECASE)
 REACCION = re.compile(
     r"\[(?:risas?|carcajadas?|aplausos?|laughter|laughs|applause)\]"
     r"|\((?:risas?|carcajadas?|aplausos?)\)",
@@ -103,6 +109,15 @@ def seleccionar_candidatos(cues, max_candidatos=12, incluir_texto=True):
         if REACCION.search(txt):
             etiquetas.append("reaccion_descrita_en_subtitulos_no_verificada_en_audio")
             puntaje += 2
+        if CONTRASTE.search(txt):
+            etiquetas.append("marcador_textual_de_contraste_o_negacion")
+            puntaje += 1
+        if REPETICION.search(txt):
+            etiquetas.append("repeticion_lexica_en_subtitulos")
+            puntaje += 1
+        if INTERROGATIVO.search(txt) and not ("?" in txt or "¿" in txt):
+            etiquetas.append("palabra_interrogativa_sin_puntuacion")
+            puntaje += 1
         if not etiquetas:
             continue
         propuesta = {
@@ -136,11 +151,19 @@ def analizar(contenido, video_id, catalogo, max_candidatos=12, incluir_texto=Tru
         "origen": "subtitulos_locales_proporcionados_por_usuario",
         "revision": "pendiente_de_revision_humana",
         "subtitulos_intervalos": len(cues),
+        "huecos_temporales_positivos": sum(
+            1 for a, b in zip(cues, cues[1:]) if b["inicio"] > a["fin"]
+        ),
+        "pistas_contiguas": all(
+            b["inicio"] <= a["fin"] for a, b in zip(cues, cues[1:])
+        ),
         "duracion_ultimo_subtitulo": tiempo(max(x["fin"] for x in cues)),
         "candidatos": seleccionar_candidatos(cues, max_candidatos, incluir_texto),
         "advertencias": [
             "Los candidatos son heurísticos; NO son remates verificados.",
             "Las pausas son huecos entre subtítulos, NO silencios acústicos.",
+            "Los marcadores de contraste, repetición e interrogación son solo pistas léxicas, no pruebas de chistes.",
+            "Los SRT sin puntuación pueden ser transcripciones automáticas con mucha información perdida.",
             "Las voces, gestos, entonación y risas requieren revisión audiovisual.",
             "Si faltan lisuras podría ser censura o error de reconocimiento."
         ]

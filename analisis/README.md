@@ -1,8 +1,8 @@
-# Motor de investigación audiovisual de Comedia Peruana (v0.6.0)
+# Motor de investigación audiovisual de Comedia Peruana (v0.7.0)
 
 ## Qué existe y qué no existe todavía
 
-- **17 videos catalogados**: por ahora enlaces y metadatos. Ninguno se marca como visionado.
+- **18 videos catalogados**: por ahora enlaces y metadatos. Uno cuenta con análisis textual de subtítulos; **ninguno se marca como visionado**.
 - **Transcripción opcional local**: `scripts/transcribir_audio.py` convierte un archivo audiovisual propio o autorizado en SRT con Faster Whisper. La transcripción automática puede confundir voces, acentos y lisuras.
 - **Análisis temporal local**: `scripts/analizar_subtitulos.py` extrae pistas SRT/VTT con marcas de tiempo y propone fragmentos para revisar. **No detecta remates ni risas con certeza**, y no ve gestos, pausas acústicas ni actuaciones.
 - **Conocimiento público editorial**: se publica solo una ficha breve con conclusiones comprobadas y redactadas en palabras propias; nunca transcripciones completas, audio ni videos de terceros.
@@ -54,12 +54,19 @@ Revisa el JSON: las entradas incluyen rango temporal, puntuación heurística y 
 
 Se puede trabajar solo con subtítulos sin el video, pero el estado es `transcripcion_analizada_sin_visionado` y no puede sostener observaciones visuales o de actuación.
 
+## Primer caso con archivo SRT real (2026-10-17)
+
+- [Marisol y Christian](fichas/eh-marisol-christian.md): **147 bloques / 19:20**, ocho observaciones textuales, enlazadas a su fuente en [JSON estructurado](observaciones/eh-marisol-christian.json).
+- Esta extracción carece de signos interrogativos y exclamativos y tiene **0 huecos entre bloques**; las pausas de los intérpretes son desconocidas.
+- Un fragmento marcado con `[Aplausos]` en SRT no equivale a una reacción comprobada; la voz, las identidades hablantes y el ritmo requieren visionado.
+- La anotación contiene **paráfrasis originales**, no el SRT de terceros.
+
 ## Primeros dos casos priorizados
 
 - [Las viejas pitucas de La Molina #01](fichas/eh-molina-01.md): estudio de personajes, estatus y registros.
 - [Chino Risas Vol.1](fichas/ca-chino-vol1.md): interacción, pausas y remates en comedia de plaza.
 
-Ambas fichas son **protocolos de análisis pendientes**, NO hallazgos de escenas vistas.
+Ambas fichas son **protocolos de análisis pendientes**, NO hallazgos de escenas vistas. Tampoco es una escena vista el caso de Marisol y Christian: sus observaciones provienen solamente del subtítulo.
 
 ## Fuentes y acceso
 
